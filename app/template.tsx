@@ -53,8 +53,11 @@ export default function Template({ children }: { children: React.ReactNode }) {
   const [showIntro, setShowIntro] = useState(false);
   const [quoteIndex, setQuoteIndex] = useState(0);
 
+  const isPosterRoute = pathname === "/fork";
+
   // Check if this is the first visit (only show intro once per session)
   useEffect(() => {
+    if (isPosterRoute) return;
     const hasSeenIntro = sessionStorage.getItem("bits-intro-seen");
     if (!hasSeenIntro) {
       setShowIntro(true);
@@ -65,7 +68,7 @@ export default function Template({ children }: { children: React.ReactNode }) {
       }, 2000);
       return () => clearTimeout(timer);
     }
-  }, []);
+  }, [isPosterRoute]);
 
   // Pick a random starting quote
   const randomStartIndex = useMemo(
@@ -74,17 +77,22 @@ export default function Template({ children }: { children: React.ReactNode }) {
   );
 
   useEffect(() => {
+    if (isPosterRoute) return;
     setQuoteIndex(randomStartIndex);
-  }, [randomStartIndex]);
+  }, [isPosterRoute, randomStartIndex]);
 
   // Rotate quotes every 400ms during intro
   useEffect(() => {
-    if (!showIntro) return;
+    if (isPosterRoute || !showIntro) return;
     const interval = setInterval(() => {
       setQuoteIndex((prev) => (prev + 1) % LOADING_QUOTES.length);
     }, 400);
     return () => clearInterval(interval);
-  }, [showIntro]);
+  }, [isPosterRoute, showIntro]);
+
+  if (isPosterRoute) {
+    return <>{children}</>;
+  }
 
   return (
     <>

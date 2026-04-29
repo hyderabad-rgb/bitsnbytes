@@ -3,14 +3,10 @@ import type { Metadata, Viewport } from "next";
 import { Anton, JetBrains_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
-import { Suspense } from "react";
 
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
-import { PageBackground } from "@/components/page-background";
-import Navigation from "@/components/navigation";
-import Footer from "@/components/footer";
-import { FloatingAiAssistant } from "@/components/client-only-components";
+import { SiteChrome } from "@/components/site-chrome";
 
 const anton = Anton({
   subsets: ["latin"],
@@ -307,15 +303,7 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(siteNavigationJsonLd) }}
         />
         <ThemeProvider>
-          <PageBackground />
-          <div className="relative z-10 flex min-h-screen flex-col overflow-x-hidden">
-            <Navigation />
-            <main className="flex-1 w-full overflow-x-hidden">{children}</main>
-            <Footer />
-            <Suspense fallback={null}>
-              <FloatingAiAssistant />
-            </Suspense>
-          </div>
+          <SiteChrome>{children}</SiteChrome>
           <Analytics />
           <SpeedInsights />
         </ThemeProvider>
