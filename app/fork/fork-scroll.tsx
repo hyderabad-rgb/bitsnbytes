@@ -281,9 +281,9 @@ export function ForkScroll({ applyUrl }: { applyUrl: string }) {
           <p className="w-fit bg-[#120F0A] px-3 py-2 font-mono text-xs uppercase tracking-[0.16em] text-[#FC920D]">
             identity reveal
           </p>
-          <motion.div style={{ opacity: logoReveal, y: logoRevealY }} className="mt-5 flex min-w-0 flex-col items-start gap-4 sm:flex-row sm:items-center">
-            <div className="flex h-16 w-16 shrink-0 items-center justify-center bg-[#120F0A] p-2.5 shadow-[6px_6px_0_#97192C] sm:h-20 sm:w-20 md:h-24 md:w-24 md:p-3">
-              <Image src="/logo.svg" alt="bits&bytes logo" width={92} height={92} className="h-full w-full invert" />
+          <motion.div style={{ opacity: logoReveal, y: logoRevealY }} className="mt-5 flex min-w-0 flex-col items-start gap-5 sm:flex-row sm:items-center sm:gap-6 md:gap-8">
+            <div className="flex h-16 w-16 shrink-0 items-center justify-center bg-[#120F0A] p-2.5 shadow-[6px_6px_0_#97192C] sm:h-20 sm:w-20 md:h-24 md:w-24 md:p-3 sm:shadow-[8px_8px_0_#97192C]">
+              <Image src="/logo.svg" alt="bits&bytes logo" width={92} height={92} className="h-full w-full object-contain invert" />
             </div>
             <p className="min-w-0 whitespace-nowrap font-display text-[clamp(1.65rem,7vw,4rem)] font-black leading-none tracking-[-0.035em] text-[#120F0A] max-[390px]:text-[1.45rem]">
               bits&amp;bytes
