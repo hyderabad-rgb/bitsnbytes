@@ -219,8 +219,8 @@ export function ForkScroll({ applyUrl }: { applyUrl: string }) {
                     Hand-Holding.
                   </h1>
                   <p className="mt-6 max-w-2xl font-serif-brand text-lg text-white/60 md:text-2xl">
-                    We give you the playbook and the brand. You bring the
-                    ambition. Everything ships publicly.
+                    We provide the playbook and the brand. You provide the
+                    ambition. A public record of people building for real.
                   </p>
                 </div>
               </div>
