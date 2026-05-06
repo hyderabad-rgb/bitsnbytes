@@ -101,7 +101,7 @@ export default function CodeOfConduct() {
       <section className="relative min-h-[58vh] sm:min-h-[64vh] flex items-center justify-center overflow-hidden text-white pt-24 md:pt-32">
         <WebGLShader />
         <div className="relative z-10 w-full mx-auto max-w-5xl px-4 sm:px-6 py-8 sm:py-12 md:py-16">
-            <div className="px-6 py-12 md:py-20 sm:px-10 lg:px-16 text-center">
+          <div className="px-6 py-12 md:py-20 sm:px-10 lg:px-16 text-center">
             <div className="flex flex-col items-center gap-6">
               <span className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/5 px-4 py-1.5 text-xs uppercase tracking-[0.35em] font-semibold text-white/90 backdrop-blur-md shadow-inner">
                 <Shield className="h-3.5 w-3.5" />
@@ -127,12 +127,15 @@ export default function CodeOfConduct() {
           description="Bits&Bytes is home for builders, dreamers, designers, and that one person who always knows the shortcut keys."
         >
           <div className="mx-auto max-w-3xl">
-            <GlassContainer className="p-8 md:p-12 text-center" glowColor="both">
+            <GlassContainer
+              className="p-8 md:p-12 text-center"
+              glowColor="both"
+            >
               <p className="text-lg md:text-xl text-white font-medium leading-relaxed">
                 We want this place to feel friendly, safe, and welcoming for
                 everyone, no matter who they are or where they come from. This
-                document ensures that the vibe stays positive and everyone feels
-                secure, respected, and free to create the next big thing.
+                document keeps the vibe right so people can actually build
+                things without garbage getting in the way.
               </p>
             </GlassContainer>
           </div>
@@ -202,7 +205,10 @@ export default function CodeOfConduct() {
           description="Straightforward list of nope. Don't be harmful, creepy, or chaotic."
         >
           <div className="mx-auto max-w-2xl">
-            <GlassContainer className="p-8 md:p-10 border-red-500/20" glowColor="none">
+            <GlassContainer
+              className="p-8 md:p-10 border-red-500/20"
+              glowColor="none"
+            >
               <div className="flex items-center gap-3 mb-6">
                 <div className="flex h-10 w-10 items-center justify-center rounded-full bg-red-500/10 border border-red-500/20">
                   <AlertTriangle className="h-5 w-5 text-red-500" />
@@ -239,14 +245,18 @@ export default function CodeOfConduct() {
                 <GlassContainer
                   key={strike.number}
                   className="p-6 md:p-8 text-center"
-                  glowColor={index === 0 ? "none" : index === 1 ? "purple" : "pink"}
+                  glowColor={
+                    index === 0 ? "none" : index === 1 ? "purple" : "pink"
+                  }
                 >
                   <div
                     className={cn(
                       "mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-full text-white font-black text-2xl shadow-lg border-4 border-white/20",
-                      strike.color === "bg-yellow-500" ? "bg-yellow-500 shadow-yellow-500/20" :
-                        strike.color === "bg-orange-500" ? "bg-orange-500 shadow-orange-500/20" :
-                          "bg-red-500 shadow-red-500/20"
+                      strike.color === "bg-yellow-500"
+                        ? "bg-yellow-500 shadow-yellow-500/20"
+                        : strike.color === "bg-orange-500"
+                          ? "bg-orange-500 shadow-orange-500/20"
+                          : "bg-red-500 shadow-red-500/20",
                     )}
                   >
                     {strike.number}
@@ -267,10 +277,9 @@ export default function CodeOfConduct() {
                   <strong className="text-white font-black uppercase tracking-tighter mr-2">
                     Important:
                   </strong>{" "}
-                  For serious violations, the team may take immediate action
-                  without warning. The Bits&Bytes staff has sole discretion in
-                  determining what constitutes a violation. Decisions are made to
-                  maintain a safe, welcoming community.
+                  For serious violations, we may act immediately without a
+                  warning. The Bits&Bytes team decides what counts as a
+                  violation. The goal is keeping the community functional.
                 </p>
               </GlassContainer>
             </div>
@@ -285,14 +294,19 @@ export default function CodeOfConduct() {
           description="If something's wrong, don't ignore it. Tell us."
         >
           <div className="mx-auto max-w-2xl">
-            <GlassContainer className="p-8 md:p-12 text-center" glowColor="pink">
+            <GlassContainer
+              className="p-8 md:p-12 text-center"
+              glowColor="pink"
+            >
               <div className="space-y-8">
                 <div className="flex flex-col md:flex-row items-center gap-6 p-6 rounded-3xl bg-white/5 border border-white/10 shadow-inner">
                   <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl bg-(--brand-pink) text-white shadow-[0_0_20px_rgba(228,90,146,0.5)]">
                     <Mail className="h-8 w-8" />
                   </div>
                   <div className="text-center md:text-left">
-                    <p className="text-sm text-white/50 font-bold uppercase tracking-[0.2em] mb-1">Email us at</p>
+                    <p className="text-sm text-white/50 font-bold uppercase tracking-[0.2em] mb-1">
+                      Email us at
+                    </p>
                     <a
                       href="mailto:hello@gobitsnbytes.org"
                       className="text-2xl md:text-3xl font-black text-white hover:text-(--brand-pink) transition-colors tracking-tighter"
@@ -319,7 +333,8 @@ export default function CodeOfConduct() {
         <PageSection align="center">
           <GlassContainer className="p-10 md:p-20 text-center" glowColor="both">
             <p className="text-xl md:text-3xl font-black text-white leading-tight max-w-3xl mx-auto tracking-tighter">
-              "Bits&Bytes exists to be a positive, creative, exciting space.
+              "Bits&Bytes exists to be a space where people can actually build
+              things.
               <span className="block mt-2 text-[var(--brand-pink)]">
                 Help us keep it that way.
               </span>

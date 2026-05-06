@@ -46,7 +46,6 @@ const stats = [
   { value: "100+", label: "Partner schools", detail: "and growing" },
 ];
 
-
 // Focus Areas are now handled within the Features component
 
 import { GlassContainer } from "@/components/ui/glass-container";
@@ -59,15 +58,17 @@ export default function Home() {
 
         <PageSection
           eyebrow="Impact"
-          title="Club-powered learning with real outcomes"
-          description="We're a teen-led code club where workshops, hackathons, and build nights lead directly to shipped projects and new opportunities."
+          title="Shipped, not just taught"
+          description="A teen-led code club. Workshops and hackathons that end with something shipped, not just something learned."
         >
           <div className="grid gap-6 md:grid-cols-3">
             {stats.map((stat) => (
               <GlassContainer
                 key={stat.label}
                 className="p-8"
-                glowColor={stat.label === "Projects shipped" ? "pink" : "purple"}
+                glowColor={
+                  stat.label === "Projects shipped" ? "pink" : "purple"
+                }
               >
                 <div className="space-y-4">
                   <p className="text-5xl font-black text-white tracking-tighter">
@@ -89,8 +90,8 @@ export default function Home() {
 
         <PageSection
           eyebrow="What We Do"
-          title="Our Focus Areas"
-          description="Explore the different ways we help teens build, learn, and grow in tech"
+          title="What we actually do"
+          description="The stuff we run"
           align="center"
         >
           <Features />

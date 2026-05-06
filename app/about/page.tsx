@@ -9,10 +9,7 @@ import {
   GlowingCardTitle,
   GlowingCardDescription,
 } from "@/components/ui/glowing-card";
-import type {
-  CoreTeamMember,
-  Volunteer,
-} from "@/components/team-case-study";
+import type { CoreTeamMember, Volunteer } from "@/components/team-case-study";
 
 // Lazy load heavy components
 const TeamCaseStudy = dynamic(() => import("@/components/team-case-study"), {
@@ -23,27 +20,27 @@ const TeamCaseStudy = dynamic(() => import("@/components/team-case-study"), {
 const aboutContent = {
   title: "About Bits&Bytes",
   description:
-    "We are a teen-led code club dedicated to empowering high-agency individuals to ship production-grade technology through real-world product launches.",
+    "A teen-led code club. Three co-founders, no adults in the room. Built from scratch.",
   sections: [
     {
       title: "The Origin Story",
       description:
-        "Originally hosting Daydream Lucknow under Hack Club, we faced a last-minute venue withdrawal. We decided to go fully independent to bypass rigid formats and deliver actual value to builders.",
+        "We were hosting Daydream Lucknow under Hack Club. Everything was set: venue, sponsors, participants. At the last moment, Hack Club pulled the venue. So we went fully independent and built the entire hackathon in 13 days flat. That's probably the most honest thing we can tell you about us. We don't quit, and we don't make excuses.",
     },
     {
       title: "High Agency Only",
       description:
-        "We move away from 'beginner-friendly' formats that treat participants like they need hand-holding. We build for exceptionally talented individuals who want to ship real products.",
+        "Platforms like CodeDay and Hack Club are great for beginners. But they lock organizers into rigid formats that don't deliver. We're building the alternative. Anyone can participate, but they'll be surrounded by people who actually want to ship, not just attend.",
     },
     {
       title: "Ship Real Products",
       description:
-        "Workshops and hack nights must convert into tangible outcomes. We focus on premium hackathons, dev squads, and real-world launches that are fully student-led.",
+        "Workshops and hack nights that end with something shipped, not just something learned. Hackathons, dev squads, and launches, all student-run.",
     },
     {
       title: "Production Grade",
       description:
-        "We prioritize performance and stability. Our technical infrastructure is built with professional standards, removing barriers for the next generation of builders.",
+        "If the site goes down, 1500 people notice. We build real infrastructure, not just demos that look good for five minutes.",
     },
   ],
 };
@@ -56,7 +53,7 @@ const coreTeam: CoreTeamMember[] = [
     role: "Co-Founder & Organisation Lead",
     image: "/team/yash.jpeg",
     mobileImagePosition: "center 18%",
-    bio: "High school student who builds things that matter—from VS Code extensions with thousands of users to hackathons with 400+ participants. IOQM National Qualifier and Educator at STEMist Lucknow, teaching underrepresented talent.",
+    bio: "Builds things that matter: a VS Code extension with thousands of users, hackathons with 400+ participants. IOQM National Qualifier. Built AI projects including laser pushup detection systems and PDF scrapers. Organized Scrapyard LKO and GDS MUN. Teaches CS at STEMist Lucknow.",
     expertise: [
       "Mathematics (IOQM)",
       "Full-Stack Dev",
@@ -79,7 +76,7 @@ const coreTeam: CoreTeamMember[] = [
     image: "/team/aadrika.png",
     mobileImagePosition: "center 20%",
     isFeatured: true,
-    bio: "RSI India Alumni who conducted neuroscience research on EEG signals and attention pattern modeling. Regional Manager for CodeDay Kanpur and a creative strategist for student-led initiatives.",
+    bio: "RSI India Alumni who conducted neuroscience research on EEG signals and attention modeling, the kind of work most people don't touch until grad school. Owns the creative direction and the strategy for what the network becomes.",
     expertise: [
       "Neuroscience (EEG)",
       "Creative Strategy",
@@ -101,7 +98,7 @@ const coreTeam: CoreTeamMember[] = [
     image: "/team/akshat.jpg",
     mobileImagePosition: "center 16%",
     mobileImageScale: 1.03,
-    bio: "AI-native systems engineer who asks what happens when software fails—building production workflows and retrieval architectures that survive real constraints. Lead at STEMist Prayagraj, defining high-performance engineering culture.",
+    bio: "AI-native systems engineer who asks what happens when software fails. Ex Jr. Research Engineer at jhana.ai at 17, where he built production AI systems including a Steno dictation plugin and AI-era IVRS. Builds retrieval architectures that survive real constraints. Owns the entire tech stack and anything that needs to work under pressure.",
     expertise: [
       "LLMOps / RAG",
       "Agentic Frameworks",
@@ -123,7 +120,7 @@ const coreTeam: CoreTeamMember[] = [
     role: "Founding Member & Backend Lead",
     image: "/team/devansh.jpeg",
     mobileImagePosition: "center 18%",
-    bio: "Manages high-performance backend development and partnership economics.",
+    bio: "Handles backend architecture and the economics of partnerships.",
     expertise: [
       "Backend Architecture",
       "Database Systems",
@@ -138,7 +135,7 @@ const coreTeam: CoreTeamMember[] = [
     role: "Social Media & Promotions Head",
     image: "/team/maryam.jpeg",
     mobileImagePosition: "center 22%",
-    bio: "Leading social strategy and impact storytelling. Generated 10k+ impressions for club events. Spearheads visual campaigns for major independent hackathons.",
+    bio: "Runs social strategy. 10k+ impressions on club events. Designs visual campaigns for independent hackathons.",
     expertise: [
       "Impact Storytelling",
       "Visual Design",
@@ -153,7 +150,7 @@ const coreTeam: CoreTeamMember[] = [
     role: "Operations & Communications Head",
     image: "/team/srishti.jpeg",
     mobileImagePosition: "center 16%",
-    bio: "Optimizing internal communication for 100+ members. Ensures smooth collaboration across design/dev squads and city-wide event transitions.",
+    bio: "Keeps 100+ members on the same page. Coordinates between design/dev squads and handles logistics for city-wide events.",
     expertise: [
       "Process Optimization",
       "Resource Logistics",
@@ -283,7 +280,7 @@ export default function About() {
           align="center"
           eyebrow="Team"
           title="Meet the Agents"
-          description="A tight crew of designers, engineers, club leads, and storytellers powering India-wide teen-led tech movements."
+          description="Designers, engineers, club leads, and storytellers. The people behind everything."
         >
           <Suspense fallback={<LoadingInline />}>
             <TeamCaseStudy coreTeam={coreTeam} volunteers={volunteers} />

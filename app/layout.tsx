@@ -36,7 +36,8 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://gobitsnbytes.org"),
   manifest: "/manifest.webmanifest",
   title: {
-    default: "Bits&Bytes - India's Teen-Led Code Club | Hackathons & Tech Community",
+    default:
+      "Bits&Bytes - India's Teen-Led Code Club | Hackathons & Tech Community",
     template: "%s | Bits&Bytes",
   },
   description:
@@ -91,9 +92,10 @@ export const metadata: Metadata = {
     locale: "en_IN",
     url: "https://gobitsnbytes.org",
     siteName: "Bits&Bytes",
-    title: "Bits&Bytes - India's Teen-Led Code Club | Hackathons & Tech Community",
+    title:
+      "Bits&Bytes - India's Teen-Led Code Club | Hackathons & Tech Community",
     description:
-      "Join India's boldest teen-led code club. Build real projects, attend hackathons, and grow as a developer. 1500+ active members with proven high-velocity execution.",
+      "Join India's boldest teen-led code club. Build real projects, attend hackathons, and grow as a developer. 1500+ active members.",
     images: [
       {
         url: "/og-image.png",
@@ -108,13 +110,14 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Bits&Bytes - India's Teen-Led Code Club",
     description:
-      "Join India's boldest teen-led code club. 1500+ active members building real products with high-velocity execution.",
+      "Join India's boldest teen-led code club. 1500+ active members building and shipping real products.",
     images: ["/og-image.png"],
     creator: "@bitsnbytes_lko",
     site: "@bitsnbytes_lko",
   },
   verification: {
-    google: process.env.GOOGLE_SITE_VERIFICATION || "google-site-verification-code",
+    google:
+      process.env.GOOGLE_SITE_VERIFICATION || "google-site-verification-code",
   },
   category: "education",
   classification: "Nonprofit Teen Code Club",
@@ -195,7 +198,8 @@ export default function RootLayout({
     "@id": "https://gobitsnbytes.org/#website",
     url: "https://gobitsnbytes.org",
     name: "Bits&Bytes",
-    description: "India's teen-led code club for hackathons, workshops, and building real projects",
+    description:
+      "India's teen-led code club for hackathons, workshops, and building real projects",
     publisher: {
       "@id": "https://gobitsnbytes.org/#organization",
     },
@@ -288,7 +292,9 @@ export default function RootLayout({
       <body className="font-sans antialiased bg-background text-foreground selection:bg-accent/30 selection:text-primary overflow-x-hidden">
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(organizationJsonLd),
+          }}
         />
         <script
           type="application/ld+json"
@@ -300,7 +306,9 @@ export default function RootLayout({
         />
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(siteNavigationJsonLd) }}
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(siteNavigationJsonLd),
+          }}
         />
         <ThemeProvider>
           <SiteChrome>{children}</SiteChrome>
