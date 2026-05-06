@@ -319,8 +319,8 @@ export function FlickeringFooter() {
             </div>
           </Link>
           <p className="tracking-tight text-muted-foreground text-sm">
-            Teen-led hackathons and code clubs. Born in Lucknow, spreading
-            across India. No adults in the room.
+            Innovate. Collaborate. Hack. Born in Lucknow, spreading across
+            India. No adults in the room.
           </p>
           <div className="flex flex-wrap gap-2 mt-2">
             {socialLinks.map(({ href, label, icon: Icon }) => (

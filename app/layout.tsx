@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     template: "%s | Bits&Bytes",
   },
   description:
-    "Join India's boldest teen-led code club. Build real projects, attend hackathons, and grow as a developer. 1500+ active members and 2700+ participant submissions evaluated in 3 days.",
+    "Innovate. Collaborate. Hack. Join India's boldest teen-led code club. Build real projects, attend hackathons, and grow as a developer. 1500+ active members and 2700+ participant submissions evaluated in 3 days.",
   keywords: [
     "Bits and Bytes",
     "bits&bytes",

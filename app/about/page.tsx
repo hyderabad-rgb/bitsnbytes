@@ -20,7 +20,7 @@ const TeamCaseStudy = dynamic(() => import("@/components/team-case-study"), {
 const aboutContent = {
   title: "About Bits&Bytes",
   description:
-    "A teen-led code club. Three co-founders, no adults in the room. Built from scratch.",
+    "Innovate. Collaborate. Hack. A teen-led code club. Three co-founders, no adults in the room. Built from scratch.",
   sections: [
     {
       title: "The Origin Story",

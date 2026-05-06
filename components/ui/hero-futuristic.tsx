@@ -68,6 +68,9 @@ export const HeroFuturistic = () => {
                   India&apos;s boldest <br className="hidden sm:block" />
                   builders club
                 </h1>
+                <p className="text-xs sm:text-sm md:text-base font-black uppercase tracking-[0.25em] sm:tracking-[0.35em] text-(--brand-pink)">
+                  innovate. collaborate. hack.
+                </p>
                 <p className="text-sm text-white/80 sm:text-base md:text-lg lg:text-xl max-w-2xl leading-relaxed">
                   Hackathons, dev squads, and launches. Fully student-led, fully
                   independent. No adults in the room.
