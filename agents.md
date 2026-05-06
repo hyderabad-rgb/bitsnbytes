@@ -1,23 +1,22 @@
-
 # Bits&Bytes Team – Agents Handbook
 
-> **Mission:** Empowering ambitious teenagers to ship meaningful tech through premium hackathons, design/dev squads, and real-world product launches.  
-> **Org Type:** Nonprofit · Independent Teen‑Led Code Club · Based in Lucknow, India · Serving builders nationwide
+> **Mission:** Getting ambitious teenagers to ship meaningful tech through hackathons, design/dev squads, and product launches. Fully student-led.
+> **Org Type:** Nonprofit · Independent Teen-Led Code Club · Based in Lucknow, India · Serving builders nationwide
 
-This handbook describes the core Bits&Bytes “agents” (team members), what each person is great at, and how we collaborate to ship high‑impact, production-grade projects fast.
+This handbook describes the core Bits&Bytes "agents" (team members), what each person does, and how we collaborate.
 
 ---
 
 ## 1. Brand & Identity
 
 ### 1.1 Mission & Vision
-We move away from "beginner-friendly" formats that treat participants like they need constant hand-holding. We build space for exceptionally talented, high-agency individuals who want to ship real products, not just prototypes.
+We're not a chapter of someone else's thing. We're fully independent, fully student-led, and we run events on our own terms. Platforms like CodeDay, Hack Club, and NASA Space Apps are great for beginners, but they lock organizers into rigid formats that don't deliver. We're building the alternative. Anyone can participate, but they'll be surrounded by people who actually want to ship, not just attend.
 
 ### 1.2 The Origin Story
-Originally hosting Daydream Lucknow under Hack Club, we faced a last-minute venue withdrawal with everything already set. Instead of quitting, we went fully independent and realized that independence allows us to bypass the rigid formats of global orgs and deliver actual sponsor ROI and participant value.
+We were hosting Daydream Lucknow under Hack Club. Everything was set: venue, sponsors, participants. At the last moment, Hack Club pulled the venue. So we went fully independent and built the entire hackathon in 13 days flat. That's probably the most honest thing we can tell you about us. We don't quit, and we don't make excuses.
 
 ### 1.3 Brand Kit
-Bits&Bytes uses a compact, production-friendly visual identity designed for high-impact student-led communications. Key elements:
+Bits&Bytes uses a compact, production-friendly visual identity. Key elements:
 
 - **Brand Mark:** A 3D cube monogram (the cube contains a stylized 'BB' and a small star accent). Use the full wordmark for large headings and the cube mark for constrained spaces (avatars, favicons). Prefer a white reversed mark on dark backgrounds; use single-color marks on light backgrounds. Always maintain clear space around the mark.
 
@@ -42,26 +41,26 @@ Bits&Bytes uses a compact, production-friendly visual identity designed for high
 
 - **Logo usage & assets:** keep vector SVGs for web/print, provide monochrome variants, and do not distort, rotate, or apply unapproved color treatments.
 
-Refer to the project's brand board and `public/llms.txt` Brand Kit section for the canonical palette, typography guidance, and visual examples.
+Refer to `public/llms.txt` Brand Kit section for the canonical palette and typography guidance.
 
 ---
 
 ## 2. Agent Directory (Who Does What?)
 
-Quick reference for “who to ping for what”.
+Quick reference for "who to ping for what".
 
 | Name | Role | Superpowers |
 |-----------|---------------------------|---------------------------------------------------------|
-| **Yash Singh** | Co-Founder & Organisation Lead | STEM Prodigy, AI Prototyping, Competitive Math, Debate |
-| **Aadrika Maurya** | Co-Founder & Chief Creative Strategist | Neuroscience Research (EEG), Brand Strategy, Regional Management |
-| **Akshat Kushwaha** | Co-Founder & Technical Lead | Production-Grade Engineering, AI/LLMOps |
-| **Devaansh Pathak** | Founding Member & Backend Lead | Backend Architecture, Partnership Economics, Database Systems |
-| **Maryam Fatima** | Social Media & Promotions Head | Impact Storytelling, Visual Design, Campaign Strategy |
-| **Sristhi Singh** | Operations & Communications Head | Process Optimization, Logistics, Internal Comms |
+| **Yash Singh** | Co-Founder & Organisation Lead | Competitive Math, AI Prototyping, Full-Stack Dev, Event Ops |
+| **Aadrika Maurya** | Co-Founder & Chief Creative Strategist | Neuroscience Research (EEG), Brand Strategy, Creative Direction |
+| **Akshat Kushwaha** | Co-Founder & Technical Lead | Production Infrastructure, AI/LLMOps, System Reliability |
+| **Devaansh Pathak** | Founding Member & Backend Lead | Backend Architecture, Partnership Economics |
+| **Maryam Fatima** | Social Media & Promotions Head | Visual Design, Campaign Strategy, Social |
+| **Sristhi Singh** | Operations & Communications Head | Logistics, Internal Comms, Coordination |
 
-### 3.3 Volunteers (Creatives, Tech, Outreach)
+### Volunteers (Creatives, Tech, Outreach)
 
-Bits&Bytes is supported by a passionate volunteer network powering operations, branding, and technical workflows:
+Bits&Bytes is supported by a volunteer network:
 - **Creatives:** Jaagruti, Kavan, Vareesha, Aishwary, and Shantanu Joshi
 - **Tech:** Hridyansh, Areeb, and Prakhar
 - **Outreach:** Adithya, Atharva, and Aanjaneya
@@ -74,65 +73,62 @@ Bits&Bytes is supported by a passionate volunteer network powering operations, b
 
 #### Yash Singh – Co-Founder & Organisation Lead
 - **Expertise:** Mathematics (IOQM), AI Prototyping, Full-Stack Dev, Hardware Experiments
-- **Achievements:** 
+- **Achievements:**
   - Created **Codiva**, a 5-star rated VS Code extension with thousands of users.
   - National Qualifier for the **Indian Mathematics Olympiad (IOQM)**.
-  - Lead Organizer for Scrapyard Lucknow and Mentor at NASA Space Apps Challenge (helping 400+ participants).
+  - Built AI projects including laser pushup detection systems and PDF scrapers.
+  - Lead Organizer for Scrapyard Lucknow and GDS MUN. Mentor at NASA Space Apps Challenge (helping 400+ participants).
   - Educator at **STEMist Lucknow**, teaching CS to underprivileged students.
 - **Profiles:**
   - Website: https://yashvibe.codes/
   - GitHub: https://github.com/yashclouded
-
-- **Owns:** Organizational strategy, event timelines, and high-impact outreach.
-
+- **Owns:** Organizational strategy, event timelines, and outreach. The operator instincts and community connections that make events actually execute.
 
 #### Aadrika Maurya – Co-Founder & Chief Creative Strategist
-- **Expertise:** Neuroscience (EEG/Attention modeling), Creative Strategy, Regional Management
-- **Achievements:** 
-  - RSI India Alumni.
-  - Regional Manager for CodeDay Kanpur.
-  - Building 'The Nerdy Network'.
+- **Expertise:** Neuroscience (EEG/Attention modeling), Creative Strategy, Brand Direction
+- **Achievements:**
+  - RSI India Alumni who conducted neuroscience research on EEG signals and attention modeling, the kind of work most people don't touch until grad school.
 - **Profiles:**
   - LinkedIn: https://www.linkedin.com/in/aadrika-maurya/
   - Website: https://aadrikasportfolio.framer.website/
   - GitHub: https://github.com/Aadrika08
-- **Owns:** Visual identity, campaign planning, and cross-city scaling.
+- **Owns:** Creative direction, brand strategy, and the vision for what the network becomes.
 
 #### Akshat Kushwaha – Co-Founder & Technical Lead
 - **Expertise:** AI-Native Engineering, Retrieval Systems, System Reliability, LLMOps
-- **Achievements:** 
-  - **AI-native systems engineer** who asks what happens when software fails—building production workflows and retrieval architectures that survive real constraints.
-  - **Lead at STEMist Prayagraj**: Defining high-performance engineering culture for young builders across the city.
-  - **Lead Architect**: Built the entire Bits&Bytes production-grade tech infrastructure from scratch.
+- **Achievements:**
+  - Ex Jr. Research Engineer at jhana.ai at 17, where he built production AI systems including a Steno dictation plugin and AI-era IVRS.
+  - Builds production workflows and retrieval architectures that survive real constraints.
+  - Built the entire Bits&Bytes tech infrastructure from scratch.
 - **Profiles:**
-  - LinkedIn: https://www.linkedin.com/in/akshat-singh-kushwaha 
+  - LinkedIn: https://www.linkedin.com/in/akshat-singh-kushwaha
   - Website: https://a3ro.dev
   - GitHub: https://github.com/a3ro-dev
-- **Owns:** System architecture, technical stability, and shifting the club towards production-ready software.
+- **Owns:** The entire tech stack, the infra, and anything that needs to actually work under pressure.
 
 ---
 
 ## 4. Track Record
 
-- **Scrapyard Lucknow:** 40+ coders, designers, and filmmakers united for innovation. Executed in 13 days.
+- **Scrapyard Lucknow:** 40+ coders, designers, and filmmakers in one room. Executed in 13 days.
 - **India Innovates 2026:** Official Executive Partner for the World's Largest Civic Tech Hackathon with 1.26 crore+ applicants.
 - **Execron 1.0:** Co-hosted AI Hackathon & Workshop at IIT Kanpur for students in Classes 9–12.
 - **GitHub Copilot Dev Days:** Hosted community developer event focused on AI-assisted coding in Lucknow.
-- **Lucknow Build Guild:** Free hardware workshop and meetup for local tech enthusiasts.
+- **Lucknow Build Guild:** Free hardware workshop and meetup for local tech people.
 - **NASA Space Apps Challenge Lucknow:** 300+ participants.
 - **CodeDay Hackathons:** Across Lucknow, Delhi, and Dehradun.
 - **Web Presence:** gobitsnbytes.org serves thousands of monthly visitors with 1,500+ active members and 130+ shipped projects.
-- **Evaluation Throughput:** 2,700+ project submissions evaluated during intensive 3-day sprints.
+- **Evaluation Throughput:** 2,700+ project submissions reviewed in 3-day sprints.
 
 ---
 
 ## 5. How We Work
 
 ### 5.1 Core Principles
-1. **High Agency ONLY** – We don't do hand-holding. We build for thinkers and builders.
-2. **Ship Real Products** – Workshops and hack nights must convert into tangible outcomes.
+1. **High Agency ONLY** – We don't do hand-holding. We build for people who want to ship.
+2. **Ship Real Products** – Workshops and hack nights must end with something shipped, not just something learned.
 3. **Collaboration First** – We default to pairing and sharing context.
-4. **Resilience** – We don't make excuses; we ship regardless of obstacles (e.g., the venue incident).
+4. **Resilience** – We don't make excuses; we ship regardless of obstacles.
 
 ### 5.2 Technical Guidelines
 1. **Performance First** – Optimized for speed (TTFB, LCP, INP).
@@ -149,7 +145,7 @@ Bits&Bytes is supported by a passionate volunteer network powering operations, b
 - To refresh the RAG index after content changes run:
 
 ```bash
-pnpm tsx scripts/embed-site.ts
+npx tsx scripts/embed-site.ts
 ```
 
 - A Husky `pre-push` hook runs the embedding step automatically when tracked source paths change; see `.husky/pre-push` for `EMBED_PATHS`.
@@ -157,4 +153,4 @@ pnpm tsx scripts/embed-site.ts
 
 ---
 
-*Last updated: April 25, 2026*
+*Last updated: May 2026*
