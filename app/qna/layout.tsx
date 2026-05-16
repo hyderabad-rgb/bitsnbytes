@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     description:
       "Chat with the official Bits&Bytes AI assistant. Ask about our club, events, and community.",
     images: ["/og-image.png"],
-    creator: "@bitsnbytes_lko",
+    creator: "@bitsnbytes_hyd",
   },
 };
 

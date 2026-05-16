@@ -138,7 +138,7 @@ export default function Contact() {
               </h1>
               <p className="text-base sm:text-lg md:text-xl text-white/80 max-w-2xl mx-auto leading-relaxed font-medium">
                 Partner with us on hackathons, workshops, or school programs
-                across Lucknow.
+                across Hyderabad.
               </p>
             </div>
           </div>
@@ -172,7 +172,7 @@ export default function Contact() {
                       {
                         icon: MapPin,
                         label: "Location",
-                        value: "Lucknow, India",
+                        value: "Hyderabad, India",
                         color: "text-(--brand-purple)",
                       },
                       {
@@ -352,7 +352,7 @@ export default function Contact() {
                   {
                     icon: Instagram,
                     label: "Instagram",
-                    href: "https://www.instagram.com/bitsnbytes.lko",
+                    href: "https://www.instagram.com/bitsnbytes.hyd",
                   },
                 ].map((social) => (
                   <Link

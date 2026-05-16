@@ -213,7 +213,7 @@ $$;
 
 ### 4.3 Team Data & Role Matching (`lib/team-data.ts` & `app/about/page.tsx`)
 
-**Team Members:** The platform features 6 core leads (Yash Singh, Aadrika Maurya, Akshat Kushwaha, Devaansh Pathak, Maryam Fatima, Sristhi Singh) and 11 active volunteers categorized by Creatives, Tech, and Outreach.
+**Team Members:** The platform features 6 core leads (SHREETHAN KAGITHA, Aadrika Maurya, Akshat Kushwaha, Devaansh Pathak, Maryam Fatima, Sristhi Singh) and 11 active volunteers categorized by Creatives, Tech, and Outreach.
 
 **Functions:**
 
@@ -481,7 +481,7 @@ Automatically captures at build time:
 **CSS Framework:** Tailwind CSS 4 with `@tailwindcss/postcss` plugin.
 
 **Theme Colors (Figma System):**
-- Primary (brand anchor): `#97192C` (burgundy base) — accent: `#3E1E68` (deep purple)
+- Primary (brand anchor): `#0D9488` (burgundy base) — accent: `#3E1E68` (deep purple)
 - Secondary: Pink, Blue (accent)
 - Dark mode theme: Black background + white text
 

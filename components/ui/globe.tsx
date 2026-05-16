@@ -381,7 +381,7 @@ function InitialRotation({ lat, lng }: { lat: number; lng: number }) {
       // Convert lat/lng to radians
       const phi = (90 - lat) * (Math.PI / 180);
       const theta = (lng + 280) * (Math.PI / 180);
-      // 280 degree hardcode to spawn globe directly at lucknow
+      // 280 degree hardcode to spawn globe directly at hyderabad
 
       // Calculate camera position to face the target (opposite side)
       const radius = cameraZ;

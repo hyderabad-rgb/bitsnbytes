@@ -9,7 +9,7 @@ export interface TeamMember {
 
 export const TEAM_MEMBERS: TeamMember[] = [
   {
-    name: "Yash Singh",
+    name: "SHREETHAN KAGITHA",
     role: "Co-Founder & Organisation Lead",
     superpowers: ["Full-Stack Engineering", "Mathematics (IOQM)", "AI / LLM Intelligence", "Game Dev (GoDOT)", "Three.js & Creative Coding"],
     achievements: [
@@ -17,8 +17,8 @@ export const TEAM_MEMBERS: TeamMember[] = [
       "Created Codiva: A 5-star rated VS Code extension that gamifies coding for thousands of users",
       "National Qualifier for the Indian Mathematics Olympiad (IOQM)",
       "Built Alem (AI notes app <25MB) and MailAF (AI cold outreach automation)",
-      "Educator at STEMist Lucknow, teaching Computer Science to underprivileged students with talent",
-      "Lead Organizer for Scrapyard Lucknow and Galactic Local Mentor at NASA Space Apps Challenge"
+      "Educator at STEMist Hyderabad, teaching Computer Science to underprivileged students with talent",
+      "Lead Organizer for Scrapyard Hyderabad and Galactic Local Mentor at NASA Space Apps Challenge"
     ],
     talkToMeWhen: [
       "You want to discuss community building or scaling high-agency movements",
@@ -161,7 +161,7 @@ export function recommendRoles(skills: string[], interests: string[]): string {
       (k) => k.includes("people") || k.includes("event") || k.includes("manage") || k.includes("lead") || k.includes("operations")
     )
   ) {
-    recommendations.push("Community, Operations & Leadership (Talk to Yash or Srishti)")
+    recommendations.push("Community, Operations & Leadership (Talk to SHREETHAN KAGITHA or Srishti)")
   }
 
   if (recommendations.length === 0) {

@@ -27,7 +27,7 @@ const benefits = [
 function Texture() {
   return (
     <>
-      <div className="absolute inset-0 bg-[#97192C]" aria-hidden />
+      <div className="absolute inset-0 bg-[#0D9488]" aria-hidden />
       <div
         className="absolute inset-0 opacity-45 [background-image:radial-gradient(circle_at_18%_20%,rgba(18,15,10,0.2),transparent_22%),radial-gradient(circle_at_82%_76%,rgba(252,146,13,0.12),transparent_20%),linear-gradient(90deg,rgba(18,15,10,0.08),transparent_40%,rgba(208,207,206,0.05))]"
         aria-hidden
@@ -113,7 +113,7 @@ function PastedCard({
     >
       <div className="absolute inset-0 bg-noise-texture opacity-25 mix-blend-multiply" aria-hidden />
       <div className="relative">
-        <p className="font-mono text-xs font-black text-[#97192C]">{number}</p>
+        <p className="font-mono text-xs font-black text-[#0D9488]">{number}</p>
         <h3 className="mt-4 text-balance font-display text-[clamp(1.35rem,2.35vw,2.15rem)] font-black uppercase leading-[0.95] tracking-[-0.035em]">
           {title}
         </h3>
@@ -134,13 +134,13 @@ function HowItWorksMobile({ progress }: { progress: MotionValue<number> }) {
     >
       <div className="absolute inset-0 bg-noise-texture opacity-25 mix-blend-multiply" aria-hidden />
       <div className="relative">
-        <p className="w-fit bg-[#120F0A] px-3 py-2 font-mono text-[10px] uppercase tracking-[0.16em] text-[#FC920D]">
+        <p className="w-fit bg-[#120F0A] px-3 py-2 font-mono text-[10px] uppercase tracking-[0.16em] text-[#F59E0B]">
           how it works
         </p>
         <div className="mt-4 grid gap-2">
           {howItWorks.map(([number, title, line]) => (
             <div key={number} className="grid grid-cols-[2.2rem_1fr] gap-3 border-t border-[#120F0A]/20 py-3 first:border-t-0">
-              <span className="font-mono text-xs font-black text-[#97192C]">{number}</span>
+              <span className="font-mono text-xs font-black text-[#0D9488]">{number}</span>
               <div>
                 <h3 className="font-display text-[clamp(1.35rem,8vw,2rem)] font-black uppercase leading-[0.92] tracking-[-0.035em]">
                   {title}
@@ -178,7 +178,7 @@ function BenefitsMobile({ progress }: { progress: MotionValue<number> }) {
   return (
     <motion.div
       style={{ opacity, y }}
-      className="absolute inset-x-4 top-[max(5rem,10svh)] z-40 bg-[#120F0A] p-4 text-[#D0CFCE] shadow-[9px_9px_0_#FC920D] md:hidden"
+      className="absolute inset-x-4 top-[max(5rem,10svh)] z-40 bg-[#120F0A] p-4 text-[#D0CFCE] shadow-[9px_9px_0_#F59E0B] md:hidden"
     >
       <p className="mb-4 w-fit bg-[#D0CFCE] px-3 py-2 font-mono text-[10px] uppercase tracking-[0.16em] text-[#120F0A]">
         what forks get
@@ -232,8 +232,8 @@ export function ForkScroll({ applyUrl }: { applyUrl: string }) {
   const finalY = useTransform(scrollYProgress, [0.82, 1], ["14vh", "0vh"]);
 
   return (
-    <main className="relative overflow-x-hidden bg-[#97192C] text-[#D0CFCE]" style={{ minHeight: "780svh" }}>
-      <section className="fixed inset-0 h-[100svh] overflow-hidden bg-[#97192C]">
+    <main className="relative overflow-x-hidden bg-[#0D9488] text-[#D0CFCE]" style={{ minHeight: "780svh" }}>
+      <section className="fixed inset-0 h-[100svh] overflow-hidden bg-[#0D9488]">
         <Texture />
         <PosterWord progress={scrollYProgress} />
         <div
@@ -254,9 +254,9 @@ export function ForkScroll({ applyUrl }: { applyUrl: string }) {
               <br />
               tech scene in
               <br />
-              your city<span className="text-[#97192C]">?</span>
+              your city<span className="text-[#0D9488]">?</span>
               <br />
-              fork one<span className="text-[#97192C]">.</span>
+              fork one<span className="text-[#0D9488]">.</span>
             </h1>
             <p className="mt-4 font-serif-brand text-[clamp(1.2rem,6vw,2.55rem)] leading-tight tracking-[-0.03em] md:leading-none md:tracking-[-0.04em]">
               Build with people.
@@ -278,11 +278,11 @@ export function ForkScroll({ applyUrl }: { applyUrl: string }) {
           className="absolute inset-x-4 top-[max(5rem,10svh)] z-40 mx-auto w-auto max-w-[39rem] overflow-hidden bg-[#D0CFCE] p-4 text-[#120F0A] shadow-[10px_10px_0_#120F0A] md:left-auto md:right-[6vw] md:top-[14vh] md:mx-0 md:w-[min(82vw,39rem)] md:p-7 md:shadow-[12px_12px_0_#120F0A]"
           rotateFrom={3}
         >
-          <p className="w-fit bg-[#120F0A] px-3 py-2 font-mono text-xs uppercase tracking-[0.16em] text-[#FC920D]">
+          <p className="w-fit bg-[#120F0A] px-3 py-2 font-mono text-xs uppercase tracking-[0.16em] text-[#F59E0B]">
             identity reveal
           </p>
           <motion.div style={{ opacity: logoReveal, y: logoRevealY }} className="mt-5 flex min-w-0 flex-col items-start gap-5 sm:flex-row sm:items-center sm:gap-6 md:gap-8">
-            <div className="flex h-16 w-16 shrink-0 items-center justify-center bg-[#120F0A] p-2.5 shadow-[6px_6px_0_#97192C] sm:h-20 sm:w-20 md:h-24 md:w-24 md:p-3 sm:shadow-[8px_8px_0_#97192C]">
+            <div className="flex h-16 w-16 shrink-0 items-center justify-center bg-[#120F0A] p-2.5 shadow-[6px_6px_0_#0D9488] sm:h-20 sm:w-20 md:h-24 md:w-24 md:p-3 sm:shadow-[8px_8px_0_#0D9488]">
               <Image src="/logo.svg" alt="bits&bytes logo" width={92} height={92} className="h-full w-full object-contain invert" />
             </div>
             <p className="min-w-0 whitespace-nowrap font-display text-[clamp(1.65rem,7vw,4rem)] font-black leading-none tracking-[-0.035em] text-[#120F0A] max-[390px]:text-[1.45rem]">
@@ -296,7 +296,7 @@ export function ForkScroll({ applyUrl }: { applyUrl: string }) {
 
         <motion.div
           style={{ opacity: howTitleOpacity }}
-          className="absolute left-[4vw] top-[8vh] z-40 hidden bg-[#120F0A] px-4 py-2 font-mono text-xs uppercase tracking-[0.16em] text-[#FC920D] shadow-[6px_6px_0_rgba(18,15,10,0.35)] md:block"
+          className="absolute left-[4vw] top-[8vh] z-40 hidden bg-[#120F0A] px-4 py-2 font-mono text-xs uppercase tracking-[0.16em] text-[#F59E0B] shadow-[6px_6px_0_rgba(18,15,10,0.35)] md:block"
         >
           how it works
         </motion.div>
@@ -338,7 +338,7 @@ export function ForkScroll({ applyUrl }: { applyUrl: string }) {
           className="absolute inset-x-4 top-[10vh] z-40 mx-auto hidden max-w-6xl bg-transparent text-[#D0CFCE] md:block"
           rotateFrom={0}
         >
-          <p className="mb-8 w-fit bg-[#120F0A] px-4 py-2 font-mono text-xs uppercase tracking-[0.16em] text-[#FC920D] shadow-[6px_6px_0_rgba(18,15,10,0.3)]">
+          <p className="mb-8 w-fit bg-[#120F0A] px-4 py-2 font-mono text-xs uppercase tracking-[0.16em] text-[#F59E0B] shadow-[6px_6px_0_rgba(18,15,10,0.3)]">
             what forks get
           </p>
           <div className="flex flex-wrap gap-4">
@@ -371,7 +371,7 @@ export function ForkScroll({ applyUrl }: { applyUrl: string }) {
               </div>
               <Link
                 href={applyUrl}
-                className="inline-flex min-h-12 shrink-0 items-center justify-center bg-[#FC920D] px-7 py-4 font-display text-sm font-black uppercase tracking-[0.14em] text-[#120F0A] shadow-[6px_6px_0_#120F0A] outline-none transition-transform duration-200 ease-out hover:-translate-y-1 focus-visible:ring-4 focus-visible:ring-[#120F0A] focus-visible:ring-offset-4 focus-visible:ring-offset-[#D0CFCE] active:scale-[0.97]"
+                className="inline-flex min-h-12 shrink-0 items-center justify-center bg-[#F59E0B] px-7 py-4 font-display text-sm font-black uppercase tracking-[0.14em] text-[#120F0A] shadow-[6px_6px_0_#120F0A] outline-none transition-transform duration-200 ease-out hover:-translate-y-1 focus-visible:ring-4 focus-visible:ring-[#120F0A] focus-visible:ring-offset-4 focus-visible:ring-offset-[#D0CFCE] active:scale-[0.97]"
               >
                 apply now
               </Link>

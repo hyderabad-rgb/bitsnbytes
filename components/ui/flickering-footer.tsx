@@ -319,7 +319,7 @@ export function FlickeringFooter() {
             </div>
           </Link>
           <p className="tracking-tight text-muted-foreground text-sm">
-            Innovate. Collaborate. Hack. Born in Lucknow, spreading across
+            Innovate. Collaborate. Hack. Born in Hyderabad, spreading across
             India. No adults in the room.
           </p>
           <div className="flex flex-wrap gap-2 mt-2">
@@ -374,7 +374,7 @@ export function FlickeringFooter() {
               </a>
               <p className="flex items-center gap-2 text-sm text-muted-foreground">
                 <MapPin className="h-4 w-4 shrink-0" />
-                Based in Lucknow, India
+                Based in Hyderabad, India
               </p>
             </div>
           </div>

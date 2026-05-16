@@ -25,7 +25,7 @@ const aboutContent = {
     {
       title: "The Origin Story",
       description:
-        "We were hosting Daydream Lucknow under Hack Club. Everything was set: venue, sponsors, participants. At the last moment, Hack Club pulled the venue. So we went fully independent and built the entire hackathon in 13 days flat. That's probably the most honest thing we can tell you about us. We don't quit, and we don't make excuses.",
+        "We were hosting Daydream Hyderabad under Hack Club. Everything was set: venue, sponsors, participants. At the last moment, Hack Club pulled the venue. So we went fully independent and built the entire hackathon in 13 days flat. That's probably the most honest thing we can tell you about us. We don't quit, and we don't make excuses.",
     },
     {
       title: "High Agency Only",
@@ -49,11 +49,11 @@ const aboutContent = {
 const coreTeam: CoreTeamMember[] = [
   {
     id: 1,
-    name: "Yash Singh",
+    name: "SHREETHAN KAGITHA",
     role: "Co-Founder & Organisation Lead",
-    image: "/team/yash.jpeg",
+    image: "/team/shree.jpeg",
     mobileImagePosition: "center 18%",
-    bio: "Builds things that matter: a VS Code extension with thousands of users, hackathons with 400+ participants. IOQM National Qualifier. Built AI projects including laser pushup detection systems and PDF scrapers. Organized Scrapyard LKO and GDS MUN. Teaches CS at STEMist Lucknow.",
+    bio: "Builds things that matter: a VS Code extension with thousands of users, hackathons with 400+ participants. IOQM National Qualifier. Built AI projects including laser pushup detection systems and PDF scrapers. Organized Scrapyard HYD and GDS MUN. Teaches CS at STEMist Hyderabad.",
     expertise: [
       "Mathematics (IOQM)",
       "Full-Stack Dev",

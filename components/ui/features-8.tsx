@@ -205,13 +205,13 @@ export function Features() {
                 <div className="relative flex h-full flex-col justify-center space-y-8 py-12">
                   <div className="relative flex w-[calc(50%+1.5rem)] items-center justify-end gap-3 transition-transform hover:scale-105">
                     <span className="block h-fit rounded-full border border-white/10 bg-white/5 px-4 py-1.5 text-xs font-bold text-white shadow-sm backdrop-blur-md">
-                      Yash Singh
+                      SHREETHAN KAGITHA
                     </span>
                     <div className="ring-white/10 size-12 ring-2 rounded-2xl overflow-hidden border border-white/20">
                       <Image
                         className="size-full object-cover"
-                        src="/team/yash.jpeg"
-                        alt="Yash"
+                        src="/team/shree.jpeg"
+                        alt="SHREETHAN KAGITHA"
                         width={48}
                         height={48}
                       />

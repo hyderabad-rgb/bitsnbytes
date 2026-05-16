@@ -168,7 +168,7 @@ type FaqEntry = { patterns: string[]; answer: string }
 const SMART_FAQ: FaqEntry[] = [
   {
     patterns: ["what is bits", "what is bitsnbytes", "bits and bytes", "bits&bytes", "about bits", "tell me about bits"],
-    answer: "**Bits&Bytes** is a teen-led code club based in Lucknow, India. We run hackathons, workshops, and product-focused build programs led by students.\n\n[Learn more about us](/about \"cta\")\n\n[Who founded it?](# \"follow-up\")  \n[How can I join?](# \"follow-up\")",
+    answer: "**Bits&Bytes** is a teen-led code club based in Hyderabad, India. We run hackathons, workshops, and product-focused build programs led by students.\n\n[Learn more about us](/about \"cta\")\n\n[Who founded it?](# \"follow-up\")  \n[How can I join?](# \"follow-up\")",
   },
   {
     patterns: ["how to join", "how can i join", "join bits", "become a member", "sign up", "get involved", "membership"],
@@ -180,11 +180,11 @@ const SMART_FAQ: FaqEntry[] = [
   },
   {
     patterns: ["copilot dev days", "copilot event", "github copilot", "april 19", "cubispace"],
-    answer: "**GitHub Copilot Dev Days | Lucknow (Archive)**\n\n- **Date:** Sunday, April 19, 2026\n- **Time:** 10:00 AM - 2:00 PM IST\n- **Venue:** Cubispace, Jankipuram, Lucknow\n- **Status:** Registrations closed\n\n[View Event Archive](https://luma.com/xtxua1jl \"cta\")\n\n[What did the event cover?](# \"follow-up\")",
+    answer: "**GitHub Copilot Dev Days | Hyderabad (Archive)**\n\n- **Date:** Sunday, April 19, 2026\n- **Time:** 10:00 AM - 2:00 PM IST\n- **Venue:** Cubispace, Jankipuram, Hyderabad\n- **Status:** Registrations closed\n\n[View Event Archive](https://luma.com/xtxua1jl \"cta\")\n\n[What did the event cover?](# \"follow-up\")",
   },
   {
-    patterns: ["lucknow build guild", "build guild", "hardware workshop", "shaurya"],
-    answer: "**Lucknow Build Guild (Archive)**\n\n- **Date:** April 19, 2026\n- **Venue:** SureStay by Best Western, Lucknow\n- **Format:** Free hardware workshop and meetup\n- **Host:** Shaurya\n\n[Visit Event Website](https://www.lucknow-build-guild.xyz/ \"cta\")\n[Host Linktree](https://linktr.ee/shauryaashu \"cta\")\n[Host GitHub](https://github.com/Shaurya-Ashu \"cta\")",
+    patterns: ["hyderabad build guild", "build guild", "hardware workshop", "shaurya"],
+    answer: "**Hyderabad Build Guild (Archive)**\n\n- **Date:** April 19, 2026\n- **Venue:** SureStay by Best Western, Hyderabad\n- **Format:** Free hardware workshop and meetup\n- **Host:** Shaurya\n\n[Visit Event Website](https://www.hyderabad-build-guild.xyz/ \"cta\")\n[Host Linktree](https://linktr.ee/shauryaashu \"cta\")\n[Host GitHub](https://github.com/Shaurya-Ashu \"cta\")",
   },
   {
     patterns: ["india innovates", "hackathon 2026", "ii 2026", "india innovates 2026"],
@@ -196,23 +196,23 @@ const SMART_FAQ: FaqEntry[] = [
   },
   {
     patterns: ["who founded", "founders", "who started", "who created", "team", "leadership", "core team"],
-    answer: "**Bits&Bytes Core Team:**\n\n- **Yash Singh** — Co-Founder & Organisation Lead. Founder of Bits&Bytes, IOQM national qualifier, created the 5-star Codiva VS Code extension (1000+ users).\n\n- **Aadrika Maurya** — Co-Founder & Chief Creative Strategist. RSI India alumna, neuroscience researcher, designed our complete visual identity.\n\n- **Akshat Kushwaha** — Co-Founder & Technical Lead. AI-native systems engineer who architected our entire production platform and LLMOps infrastructure.\n\n- **Devaansh Pathak** — Founding Member & Backend Lead. Built our high-performance backend systems and partnership economics.\n\n- **Maryam Fatima** — Social Media & Promotions Head. Generates 10k+ impressions through visual storytelling.\n\n- **Sristhi Singh** — Operations & Communications Head. Orchestrates logistics and optimizes our product lifecycle.\n\n[Meet the team](/about \"cta\")",
+    answer: "**Bits&Bytes Core Team:**\n\n- **SHREETHAN KAGITHA** — Co-Founder & Organisation Lead. Founder of Bits&Bytes, IOQM national qualifier, created the 5-star Codiva VS Code extension (1000+ users).\n\n- **Aadrika Maurya** — Co-Founder & Chief Creative Strategist. RSI India alumna, neuroscience researcher, designed our complete visual identity.\n\n- **Akshat Kushwaha** — Co-Founder & Technical Lead. AI-native systems engineer who architected our entire production platform and LLMOps infrastructure.\n\n- **Devaansh Pathak** — Founding Member & Backend Lead. Built our high-performance backend systems and partnership economics.\n\n- **Maryam Fatima** — Social Media & Promotions Head. Generates 10k+ impressions through visual storytelling.\n\n- **Sristhi Singh** — Operations & Communications Head. Orchestrates logistics and optimizes our product lifecycle.\n\n[Meet the team](/about \"cta\")",
   },
   {
     patterns: ["discord", "community link", "whatsapp group", "discord server"],
     answer: "Join the Bits&Bytes community here:\n\n[Join WhatsApp Community](https://chat.whatsapp.com/DvAIRLgEEBxISR8bsb9kVg \"cta\")\n\n[What events are coming up?](# \"follow-up\")",
   },
   {
-    patterns: ["where are you", "location", "based in", "city", "lucknow"],
-    answer: "We are based in **Lucknow, India**, and we collaborate with students and partners across other cities as well.\n\n[See events](/events \"cta\")",
+    patterns: ["where are you", "location", "based in", "city", "hyderabad"],
+    answer: "We are based in **Hyderabad, India**, and we collaborate with students and partners across other cities as well.\n\n[See events](/events \"cta\")",
   },
   {
     patterns: ["what do you do", "activities", "what does bits", "programs", "workshops", "what makes bits different", "why bits"],
-    answer: "At Bits&Bytes we build for **high-agency teen builders** who want to ship real products:\n\n- **Hackathons** — Scrapyard Lucknow, NASA Space Apps, and 48-hour sprints\n- **Workshops** — Web dev, AI/ML, mobile apps, UI/UX, hardware building\n- **Build programs** — Portfolio-ready projects with mentorship at every stage\n- **Mentorship pods** — Pair programming, code reviews, and accountability partners\n\nWe treat participants like **ambitious builders**, not beginners. Every prompt becomes a prototype. You'll ship real impact.\n\n[View our projects](/projects \"cta\")",
+    answer: "At Bits&Bytes we build for **high-agency teen builders** who want to ship real products:\n\n- **Hackathons** — Scrapyard Hyderabad, NASA Space Apps, and 48-hour sprints\n- **Workshops** — Web dev, AI/ML, mobile apps, UI/UX, hardware building\n- **Build programs** — Portfolio-ready projects with mentorship at every stage\n- **Mentorship pods** — Pair programming, code reviews, and accountability partners\n\nWe treat participants like **ambitious builders**, not beginners. Every prompt becomes a prototype. You'll ship real impact.\n\n[View our projects](/projects \"cta\")",
   },
   {
     patterns: ["events", "upcoming event", "next event", "what events"],
-    answer: "**Events Snapshot:**\n\n1. **Lucknow Build Guild** — Archived\n2. **GitHub Copilot Dev Days | Lucknow** — Archived\n3. **Execron 1.0** — Archived\n4. **India Innovates 2026** — Archived\n\n[View all events](/events \"cta\")\n\n[Tell me about Lucknow Build Guild](# \"follow-up\")",
+    answer: "**Events Snapshot:**\n\n1. **Hyderabad Build Guild** — Archived\n2. **GitHub Copilot Dev Days | Hyderabad** — Archived\n3. **Execron 1.0** — Archived\n4. **India Innovates 2026** — Archived\n\n[View all events](/events \"cta\")\n\n[Tell me about Hyderabad Build Guild](# \"follow-up\")",
   },
   {
     patterns: ["akshat achievement", "akshat's achievement", "what has akshat done", "akshat projects", "akshats' achievements"],

@@ -15,7 +15,7 @@ const testimonials = [
   {
     quote:
       "I didn't expect a student club to feel this real. We're not pretending to build things. We actually are.",
-    author: "Yash",
+    author: "SHREETHAN KAGITHA",
     role: "Co-Founder & Organisation Lead",
     company: "Bits&Bytes",
   },

@@ -5,11 +5,11 @@
 
 :root {
   /* Canonical Bits&Bytes brand palette (Brand Kit) */
-  --bb-burgundy-100: #97192C;
-  --bb-burgundy-80: #791423;
-  --bb-burgundy-60: #5B0F1A;
-  --bb-burgundy-40: #3C0A12;
-  --bb-burgundy-20: #1E0509;
+  --bb-burgundy-100: #0D9488;
+  --bb-burgundy-80: #0F766E;
+  --bb-burgundy-60: #115E59;
+  --bb-burgundy-40: #134E4A;
+  --bb-burgundy-20: #042F2E;
 
   --bb-neutral-100: #120F0A;
   --bb-neutral-80: #413F3B;
@@ -17,11 +17,11 @@
   --bb-neutral-40: #A09F9D;
   --bb-neutral-20: #D0CFCE;
 
-  --bb-orange-100: #FC920D;
-  --bb-orange-80: #FDA83D;
-  --bb-orange-60: #FDBE6E;
-  --bb-orange-40: #FED39E;
-  --bb-orange-20: #FEE9CF;
+  --bb-orange-100: #F59E0B;
+  --bb-orange-80: #D97706;
+  --bb-orange-60: #B45309;
+  --bb-orange-40: #92400E;
+  --bb-orange-20: #78350F;
 
   --bb-warm-100: #C94218;
   --bb-warm-80: #D46846;

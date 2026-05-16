@@ -1,7 +1,7 @@
 # Bits&Bytes Team – Agents Handbook
 
 > **Mission:** Getting ambitious teenagers to ship meaningful tech through hackathons, design/dev squads, and product launches. Fully student-led.
-> **Org Type:** Nonprofit · Independent Teen-Led Code Club · Based in Lucknow, India · Serving builders nationwide
+> **Org Type:** Nonprofit · Independent Teen-Led Code Club · Based in Hyderabad, India · Serving builders nationwide
 
 This handbook describes the core Bits&Bytes "agents" (team members), what each person does, and how we collaborate.
 
@@ -13,7 +13,7 @@ This handbook describes the core Bits&Bytes "agents" (team members), what each p
 We're not a chapter of someone else's thing. We're fully independent, fully student-led, and we run events on our own terms. Platforms like CodeDay, Hack Club, and NASA Space Apps are great for beginners, but they lock organizers into rigid formats that don't deliver. We're building the alternative. Anyone can participate, but they'll be surrounded by people who actually want to ship, not just attend.
 
 ### 1.2 The Origin Story
-We were hosting Daydream Lucknow under Hack Club. Everything was set: venue, sponsors, participants. At the last moment, Hack Club pulled the venue. So we went fully independent and built the entire hackathon in 13 days flat. That's probably the most honest thing we can tell you about us. We don't quit, and we don't make excuses.
+We were hosting Daydream Hyderabad under Hack Club. Everything was set: venue, sponsors, participants. At the last moment, Hack Club pulled the venue. So we went fully independent and built the entire hackathon in 13 days flat. That's probably the most honest thing we can tell you about us. We don't quit, and we don't make excuses.
 
 ### 1.3 Brand Kit
 Bits&Bytes uses a compact, production-friendly visual identity. Key elements:
@@ -27,9 +27,9 @@ Bits&Bytes uses a compact, production-friendly visual identity. Key elements:
   - Accent (display): Anton — condensed display accents used sparingly.
 
 - **Color System:**
-  - **Burgundy (Core gradient):** Base: #97192C → #791423 → #5B0F1A → #3C0A12 → #1E0509
+  - **Burgundy (Core gradient):** Base: #0D9488 → #791423 → #5B0F1A → #3C0A12 → #1E0509
   - **Neutrals:** #120F0A, #413F3B, #716F6C, #A09F9D, #D0CFCE
-  - **Accent / Orange (pop gradient):** #FC920D → #FDA83D → #FDBE6E → #FED39E → #FEE9CF
+  - **Accent / Orange (pop gradient):** #F59E0B → #FDA83D → #FDBE6E → #FED39E → #FEE9CF
   - **Warm Accent Range:** #C94218, #D46846, #DF8E74, #E9B3A3, #F4D9D1
   - **Utility / Interaction:** Vibrant Pink #E45A92, Rich Plum #5D2F77, Deep Purple #3E1E68
 
@@ -51,7 +51,7 @@ Quick reference for "who to ping for what".
 
 | Name | Role | Superpowers |
 |-----------|---------------------------|---------------------------------------------------------|
-| **Yash Singh** | Co-Founder & Organisation Lead | Competitive Math, AI Prototyping, Full-Stack Dev, Event Ops |
+| **SHREETHAN KAGITHA** | Co-Founder & Organisation Lead | Competitive Math, AI Prototyping, Full-Stack Dev, Event Ops |
 | **Aadrika Maurya** | Co-Founder & Chief Creative Strategist | Neuroscience Research (EEG), Brand Strategy, Creative Direction |
 | **Akshat Kushwaha** | Co-Founder & Technical Lead | Production Infrastructure, AI/LLMOps, System Reliability |
 | **Devaansh Pathak** | Founding Member & Backend Lead | Backend Architecture, Partnership Economics |
@@ -71,14 +71,14 @@ Bits&Bytes is supported by a volunteer network:
 
 ### 3.1 Leadership
 
-#### Yash Singh – Co-Founder & Organisation Lead
+#### SHREETHAN KAGITHA – Co-Founder & Organisation Lead
 - **Expertise:** Mathematics (IOQM), AI Prototyping, Full-Stack Dev, Hardware Experiments
 - **Achievements:**
   - Created **Codiva**, a 5-star rated VS Code extension with thousands of users.
   - National Qualifier for the **Indian Mathematics Olympiad (IOQM)**.
   - Built AI projects including laser pushup detection systems and PDF scrapers.
-  - Lead Organizer for Scrapyard Lucknow and GDS MUN. Mentor at NASA Space Apps Challenge (helping 400+ participants).
-  - Educator at **STEMist Lucknow**, teaching CS to underprivileged students.
+  - Lead Organizer for Scrapyard Hyderabad and GDS MUN. Mentor at NASA Space Apps Challenge (helping 400+ participants).
+  - Educator at **STEMist Hyderabad**, teaching CS to underprivileged students.
 - **Profiles:**
   - Website: https://yashvibe.codes/
   - GitHub: https://github.com/yashclouded
@@ -110,13 +110,13 @@ Bits&Bytes is supported by a volunteer network:
 
 ## 4. Track Record
 
-- **Scrapyard Lucknow:** 40+ coders, designers, and filmmakers in one room. Executed in 13 days.
+- **Scrapyard Hyderabad:** 40+ coders, designers, and filmmakers in one room. Executed in 13 days.
 - **India Innovates 2026:** Official Executive Partner for the World's Largest Civic Tech Hackathon with 1.26 crore+ applicants.
 - **Execron 1.0:** Co-hosted AI Hackathon & Workshop at IIT Kanpur for students in Classes 9–12.
-- **GitHub Copilot Dev Days:** Hosted community developer event focused on AI-assisted coding in Lucknow.
-- **Lucknow Build Guild:** Free hardware workshop and meetup for local tech people.
-- **NASA Space Apps Challenge Lucknow:** 300+ participants.
-- **CodeDay Hackathons:** Across Lucknow, Delhi, and Dehradun.
+- **GitHub Copilot Dev Days:** Hosted community developer event focused on AI-assisted coding in Hyderabad.
+- **Hyderabad Build Guild:** Free hardware workshop and meetup for local tech people.
+- **NASA Space Apps Challenge Hyderabad:** 300+ participants.
+- **CodeDay Hackathons:** Across Hyderabad, Delhi, and Dehradun.
 - **Web Presence:** gobitsnbytes.org serves thousands of monthly visitors with 1,500+ active members and 130+ shipped projects.
 - **Evaluation Throughput:** 2,700+ project submissions reviewed in 3-day sprints.
 

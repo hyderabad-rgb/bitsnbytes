@@ -9,7 +9,7 @@ import { PageSection } from "@/components/page-section";
 import { GlassContainer } from "@/components/ui/glass-container";
 import { Gallery4 } from "@/components/ui/gallery4";
 import { Button } from "@/components/ui/button";
-import { githubDevDayEvent, lucknowBuildGuildEvent } from "@/lib/events-data";
+import { githubDevDayEvent, hyderabadBuildGuildEvent } from "@/lib/events-data";
 import {
   Trophy,
   Users,
@@ -35,7 +35,7 @@ const WebGLShader = dynamic(
 
 export default function Events() {
   const [activeEvent, setActiveEvent] = useState<
-    "all" | "lucknow-build-guild" | "copilot" | "execron" | "india-innovates"
+    "all" | "hyderabad-build-guild" | "copilot" | "execron" | "india-innovates"
   >("all");
 
   return (
@@ -94,16 +94,16 @@ export default function Events() {
           </button>
           <button
             type="button"
-            onClick={() => setActiveEvent("lucknow-build-guild")}
-            aria-selected={activeEvent === "lucknow-build-guild"}
+            onClick={() => setActiveEvent("hyderabad-build-guild")}
+            aria-selected={activeEvent === "hyderabad-build-guild"}
             role="tab"
             className={`rounded-full px-5 py-2.5 text-sm font-bold transition-transform transition-colors transition-opacity ${
-              activeEvent === "lucknow-build-guild"
+              activeEvent === "hyderabad-build-guild"
                 ? "bg-(--brand-pink) text-white shadow-[0_0_20px_rgba(228,90,146,0.3)]"
                 : "text-white/70 hover:text-white hover:bg-white/5"
             }`}
           >
-            Archived: Lucknow Build Guild
+            Archived: Hyderabad Build Guild
           </button>
           <button
             type="button"
@@ -146,12 +146,12 @@ export default function Events() {
           </button>
         </div>
 
-        {/* ── Lucknow Build Guild ───────────────────────────────────────── */}
-        {(activeEvent === "all" || activeEvent === "lucknow-build-guild") && (
+        {/* ── Hyderabad Build Guild ───────────────────────────────────────── */}
+        {(activeEvent === "all" || activeEvent === "hyderabad-build-guild") && (
           <PageSection
             eyebrow="Archived · Apr 19, 2026"
-            title="Lucknow Build Guild"
-            description="Free hardware workshop and meetup in Lucknow."
+            title="Hyderabad Build Guild"
+            description="Free hardware workshop and meetup in Hyderabad."
           >
             <GlassContainer
               glowColor="pink"
@@ -162,7 +162,7 @@ export default function Events() {
               <div className="relative w-full overflow-hidden rounded-t-[2.25rem] bg-white/5">
                 <Image
                   src="/images/lko-build-guild.jpg"
-                  alt="Lucknow Build Guild"
+                  alt="Hyderabad Build Guild"
                   width={1920}
                   height={640}
                   className="w-full h-auto object-cover"
@@ -188,7 +188,7 @@ export default function Events() {
                         Event Summary
                       </h2>
                       <p>
-                        Lucknow Build Guild was a free hardware workshop and
+                        Hyderabad Build Guild was a free hardware workshop and
                         meetup on <strong>19 April</strong> at{" "}
                         <strong>SureStay by Best Western</strong>. People came
                         to build hardware, meet other builders, and learn from
@@ -215,10 +215,10 @@ export default function Events() {
                       </h2>
                       <p>
                         Event host:{" "}
-                        <strong>{lucknowBuildGuildEvent.hostName}</strong>.
+                        <strong>{hyderabadBuildGuildEvent.hostName}</strong>.
                         Explore:{" "}
                         <Link
-                          href={lucknowBuildGuildEvent.hostLinktree}
+                          href={hyderabadBuildGuildEvent.hostLinktree}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="text-(--brand-pink) hover:underline underline-offset-2"
@@ -227,7 +227,7 @@ export default function Events() {
                         </Link>{" "}
                         and{" "}
                         <Link
-                          href={lucknowBuildGuildEvent.hostGithub}
+                          href={hyderabadBuildGuildEvent.hostGithub}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="text-(--brand-pink) hover:underline underline-offset-2"
@@ -247,28 +247,28 @@ export default function Events() {
                             <Calendar className="h-4 w-4 text-(--brand-pink)" />
                           ),
                           label: "Date",
-                          value: lucknowBuildGuildEvent.dateLabel,
+                          value: hyderabadBuildGuildEvent.dateLabel,
                         },
                         {
                           icon: (
                             <MapPin className="h-4 w-4 text-(--brand-pink)" />
                           ),
                           label: "Venue",
-                          value: lucknowBuildGuildEvent.venueLabel,
+                          value: hyderabadBuildGuildEvent.venueLabel,
                         },
                         {
                           icon: (
                             <Users className="h-4 w-4 text-(--brand-pink)" />
                           ),
                           label: "Format",
-                          value: lucknowBuildGuildEvent.formatLabel,
+                          value: hyderabadBuildGuildEvent.formatLabel,
                         },
                         {
                           icon: (
                             <Check className="h-4 w-4 text-(--brand-pink)" />
                           ),
                           label: "Status",
-                          value: lucknowBuildGuildEvent.statusLabel,
+                          value: hyderabadBuildGuildEvent.statusLabel,
                         },
                       ].map((s) => (
                         <div
@@ -293,7 +293,7 @@ export default function Events() {
                       className="w-full rounded-2xl bg-white/10 border border-white/20 py-5 text-sm font-bold text-white hover:bg-white/20 transition-colors"
                     >
                       <Link
-                        href={lucknowBuildGuildEvent.eventSite}
+                        href={hyderabadBuildGuildEvent.eventSite}
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -311,35 +311,35 @@ export default function Events() {
                     items={[
                       {
                         id: "lbg-1",
-                        title: "Lucknow Build Guild",
+                        title: "Hyderabad Build Guild",
                         description: "Free hardware workshop and meetup",
                         href: "#",
                         image: "/event_pictures/bd1.jpg",
                       },
                       {
                         id: "lbg-2",
-                        title: "Lucknow Build Guild",
+                        title: "Hyderabad Build Guild",
                         description: "Free hardware workshop and meetup",
                         href: "#",
                         image: "/event_pictures/bd2.jpg",
                       },
                       {
                         id: "lbg-3",
-                        title: "Lucknow Build Guild",
+                        title: "Hyderabad Build Guild",
                         description: "Free hardware workshop and meetup",
                         href: "#",
                         image: "/event_pictures/bd3.jpg",
                       },
                       {
                         id: "lbg-4",
-                        title: "Lucknow Build Guild",
+                        title: "Hyderabad Build Guild",
                         description: "Free hardware workshop and meetup",
                         href: "#",
                         image: "/event_pictures/bd4.jpg",
                       },
                       {
                         id: "lbg-5",
-                        title: "Lucknow Build Guild",
+                        title: "Hyderabad Build Guild",
                         description: "Free hardware workshop and meetup",
                         href: "#",
                         image: "/event_pictures/bd5.jpg",
@@ -356,7 +356,7 @@ export default function Events() {
         {(activeEvent === "all" || activeEvent === "copilot") && (
           <PageSection
             eyebrow="Archived · Apr 19"
-            title="GitHub Copilot Dev Days | Lucknow"
+            title="GitHub Copilot Dev Days | Hyderabad"
             description="AI-assisted coding with GitHub Copilot, a community developer event."
           >
             <GlassContainer
@@ -368,7 +368,7 @@ export default function Events() {
               <div className="relative w-full overflow-hidden rounded-t-[2.25rem] bg-white/5">
                 <Image
                   src="/images/copilot-dev-day.png"
-                  alt="GitHub Copilot Dev Days | Lucknow"
+                  alt="GitHub Copilot Dev Days | Hyderabad"
                   width={1920}
                   height={640}
                   className="w-full h-auto object-cover"
@@ -396,7 +396,7 @@ export default function Events() {
                         Event Summary
                       </h2>
                       <p>
-                        A community developer event in Lucknow where students
+                        A community developer event in Hyderabad where students
                         and developers explored how AI-assisted development
                         works in real projects.
                       </p>
@@ -430,7 +430,7 @@ export default function Events() {
                         with community partners including{" "}
                         <strong>Coding Connoisseurs</strong>,{" "}
                         <strong>Aryan Singh</strong>, and{" "}
-                        <strong>Notion Lucknow</strong>. All participants
+                        <strong>Notion Hyderabad</strong>. All participants
                         observed the official{" "}
                         <Link
                           href="https://www.microsoft.com/en-us/events/code-of-conduct"

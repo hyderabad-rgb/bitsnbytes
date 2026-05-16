@@ -79,9 +79,9 @@ const faqs = [
     answer: "No. Bits&Bytes is free. Tech education shouldn't cost money.",
   },
   {
-    question: "I'm not from Lucknow. Can I still join?",
+    question: "I'm not from Hyderabad. Can I still join?",
     answer:
-      "Absolutely! While we started in Lucknow, we now have members across India. Most activities happen online via Discord.",
+      "Absolutely! While we started in Hyderabad, we now have members across India. Most activities happen online via Discord.",
   },
 ];
 

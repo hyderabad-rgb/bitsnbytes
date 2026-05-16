@@ -1,6 +1,6 @@
 # Bits&Bytes Official Website
 
-Official platform for Bits&Bytes, a teen-led coding community based in Lucknow, India. This repository powers the public website, community pages, and an AI assistant with retrieval and tool-calling support.
+Official platform for Bits&Bytes, a teen-led coding community based in Hyderabad, India. This repository powers the public website, community pages, and an AI assistant with retrieval and tool-calling support.
 
 ## What This Project Includes
 

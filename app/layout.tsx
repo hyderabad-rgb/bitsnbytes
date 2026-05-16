@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     "teen code club india",
     "india hackathons for students",
     "student developers india",
-    "coding club lucknow",
+    "coding club hyderabad",
     "tech events india",
     "learn coding for teens",
     "teen programmers community",
@@ -112,8 +112,8 @@ export const metadata: Metadata = {
     description:
       "Join India's boldest teen-led code club. 1500+ active members building and shipping real products.",
     images: ["/og-image.png"],
-    creator: "@bitsnbytes_lko",
-    site: "@bitsnbytes_lko",
+    creator: "@bitsnbytes_hyd",
+    site: "@bitsnbytes_hyd",
   },
   verification: {
     google:
@@ -157,7 +157,7 @@ export default function RootLayout({
     foundingDate: "2024",
     address: {
       "@type": "PostalAddress",
-      addressLocality: "Lucknow",
+      addressLocality: "Hyderabad",
       addressRegion: "Uttar Pradesh",
       addressCountry: "IN",
     },
@@ -168,7 +168,7 @@ export default function RootLayout({
     sameAs: [
       "https://www.linkedin.com/company/gobitsbytes",
       "https://github.com/gobitsnbytes",
-      "https://twitter.com/bitsnbytes_lko",
+      "https://twitter.com/bitsnbytes_hyd",
       "https://www.instagram.com/gobitsnbytes",
     ],
     contactPoint: {

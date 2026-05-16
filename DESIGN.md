@@ -3,7 +3,7 @@ name: Bits&Bytes Design System
 colors:
   background: "#080504"
   foreground: "#f7f1ec"
-  primary: "#97192c"
+  primary: "#0d9488"
   primary-foreground: "#fff9f4"
   secondary: "rgba(151, 25, 44, 0.2)"
   secondary-foreground: "#fff4ea"
@@ -21,7 +21,7 @@ colors:
   ring: "rgba(255, 122, 27, 0.4)"
   brand-purple: "#5e0f1a"
   brand-plum: "#791423"
-  brand-pink: "#97192c"
+  brand-pink: "#0d9488"
   brand-coral: "#ff7a1b"
   brand-amber: "#ffae24"
   brand-midnight: "#1e0509"
@@ -60,7 +60,7 @@ With deep, rich tones and vibrant gradient pops, the UI projects confidence. Tex
 
 Our primary theme revolves around an ink-black to midnight-burgundy base with glowing coral and amber accents. 
 
-- **Burgundy Core:** Deep, refined magentas and pinks (Brand Pink #97192C to Purple #5E0F1A) ground the brand.
+- **Burgundy Core:** Deep, refined magentas and pinks (Brand Pink #0D9488 to Purple #5E0F1A) ground the brand.
 - **Warm Accents:** Energetic oranges and corals (Brand Coral #FF7A1B) drive action and create dynamic "pops" of color across interactions and borders. 
 - **Neutrals & Surfaces:** Almost universally dark, our surface layers rely on transparency (`rgba`) to blend smoothly with underneath textures. Text balances stark contrast by using slightly warm, off-white shades (`#F7F1EC`) for a sophisticated look that prevents eye strain.
 

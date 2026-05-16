@@ -76,7 +76,7 @@ export default function Hero() {
                 />
               </a>
               <a
-                href="https://www.instagram.com/bitsnbytes.lko"
+                href="https://www.instagram.com/bitsnbytes.hyd"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 hover:bg-white/10 rounded-full transition-colors group"
