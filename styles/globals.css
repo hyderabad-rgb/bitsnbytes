@@ -1,4 +1,8 @@
-@import "tailwindcss";
+$ npx vercel --prod 🔍 Inspect: https: //vercel.com/bitsnbytes-projects1/bitsnbytes/HFVgBGuHN9CJ1cNygg1dRtRzmXKZ [4s]
+⏳ Production: https: //bitsnbytes-89d5joor3-bitsnbytes-projects1.vercel.app [4s]
+Error: Command "pnpm run build" exited with 1$ npx vercel --prod 🔍 Inspect: https: //vercel.com/bitsnbytes-projects1/bitsnbytes/HFVgBGuHN9CJ1cNygg1dRtRzmXKZ [4s]
+⏳ Production: https: //bitsnbytes-89d5joor3-bitsnbytes-projects1.vercel.app [4s]
+Error: Command "pnpm run build" exited with 1@import "tailwindcss";
 @import "tw-animate-css";
 
 @custom-variant dark (&:is(.dark *));
@@ -246,10 +250,12 @@
 }
 
 @keyframes float {
+
   0%,
   100% {
     transform: translateY(0px);
   }
+
   50% {
     transform: translateY(-10px);
   }
@@ -260,6 +266,7 @@
     opacity: 0;
     transform: translateY(30px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -271,6 +278,7 @@
     opacity: 0;
     transform: translateY(-30px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -281,16 +289,19 @@
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
 }
 
 @keyframes pulse-glow {
+
   0%,
   100% {
     box-shadow: 0 0 20px rgba(228, 90, 146, 0.3);
   }
+
   50% {
     box-shadow: 0 0 40px rgba(228, 90, 146, 0.6);
   }
@@ -300,6 +311,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -309,27 +321,35 @@
   0% {
     inset: 0 35px 35px 0;
   }
+
   12.5% {
     inset: 0 35px 0 0;
   }
+
   25% {
     inset: 35px 35px 0 0;
   }
+
   37.5% {
     inset: 35px 0 0 0;
   }
+
   50% {
     inset: 35px 0 0 35px;
   }
+
   62.5% {
     inset: 0 0 0 35px;
   }
+
   75% {
     inset: 0 0 35px 35px;
   }
+
   87.5% {
     inset: 0 0 35px 0;
   }
+
   100% {
     inset: 0 35px 35px 0;
   }
@@ -428,8 +448,8 @@
   0% {
     transform: translateX(0);
   }
+
   100% {
     transform: translateX(calc(-50%));
   }
 }
-
