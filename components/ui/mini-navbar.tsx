@@ -82,17 +82,7 @@ export function MiniNavbar() {
         setIsOpen(false);
     }, [pathname]);
 
-    const loginButtonElement = (
-        <Link
-            href="https://github.com/gobitsnbytes"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center justify-center gap-2 px-4 py-2 text-xs font-bold border border-white/10 bg-white/5 text-white/70 rounded-full hover:border-white/30 hover:text-white transition-transform transition-colors transition-opacity duration-200 w-full md:w-auto"
-        >
-            <Github className="w-3.5 h-3.5" />
-            GitHub
-        </Link>
-    );
+    const loginButtonElement = null;
 
     const signupButtonElement = (
         <div className="relative group w-full md:w-auto">
@@ -152,7 +142,6 @@ export function MiniNavbar() {
                 </nav>
 
                 <div className="hidden md:flex items-center gap-2 lg:gap-3">
-                    {loginButtonElement}
                     {signupButtonElement}
                 </div>
 
@@ -191,7 +180,6 @@ export function MiniNavbar() {
                         </nav>
                         <div className="flex flex-col items-center gap-3 mt-6 pb-4 w-full">
                             {signupButtonElement}
-                            {loginButtonElement}
                         </div>
                     </motion.div>
                 )}
