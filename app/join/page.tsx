@@ -266,10 +266,10 @@ export default function Join() {
             <p className="text-xs sm:text-sm text-white/60">
               Questions? Reach us at{" "}
               <a
-                href="mailto:hello@gobitsnbytes.org"
+                href="mailto:hyderabad@gobitsnbytes.org"
                 className="font-bold text-[var(--brand-pink)] hover:underline"
               >
-                hello@gobitsnbytes.org
+                hyderabad@gobitsnbytes.org
               </a>
             </p>
           </div>

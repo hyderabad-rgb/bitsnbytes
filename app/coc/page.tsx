@@ -308,10 +308,10 @@ export default function CodeOfConduct() {
                       Email us at
                     </p>
                     <a
-                      href="mailto:hello@gobitsnbytes.org"
+                      href="mailto:hyderabad@gobitsnbytes.org"
                       className="text-2xl md:text-3xl font-black text-white hover:text-(--brand-pink) transition-colors tracking-tighter"
                     >
-                      hello@gobitsnbytes.org
+                      hyderabad@gobitsnbytes.org
                     </a>
                   </div>
                 </div>

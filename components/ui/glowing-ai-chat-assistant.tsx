@@ -176,7 +176,7 @@ const SMART_FAQ: FaqEntry[] = [
   },
   {
     patterns: ["contact", "email", "reach out", "get in touch", "how to contact"],
-    answer: "You can reach us at:\n\n- **Email:** hello@gobitsnbytes.org\n- **WhatsApp Community:** https://chat.whatsapp.com/DvAIRLgEEBxISR8bsb9kVg\n- **LinkedIn:** [Bits&Bytes](https://www.linkedin.com/company/gobitsbytes)\n\n[Contact Page](/contact \"cta\")",
+    answer: "You can reach us at:\n\n- **Email:** hyderabad@gobitsnbytes.org\n- **WhatsApp Community:** https://chat.whatsapp.com/DvAIRLgEEBxISR8bsb9kVg\n- **LinkedIn:** [Bits&Bytes](https://www.linkedin.com/company/gobitsbytes)\n\n[Contact Page](/contact \"cta\")",
   },
   {
     patterns: ["copilot dev days", "copilot event", "github copilot", "april 19", "cubispace"],

@@ -367,10 +367,10 @@ export function FlickeringFooter() {
                 Connect
               </p>
               <a
-                href="mailto:hello@gobitsnbytes.org"
+                href="mailto:hyderabad@gobitsnbytes.org"
                 className="text-white/70 hover:text-white transition-colors"
               >
-                hello@gobitsnbytes.org
+                hyderabad@gobitsnbytes.org
               </a>
               <p className="flex items-center gap-2 text-sm text-muted-foreground">
                 <MapPin className="h-4 w-4 shrink-0" />

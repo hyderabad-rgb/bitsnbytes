@@ -165,8 +165,8 @@ export default function Contact() {
                       {
                         icon: Mail,
                         label: "Email",
-                        value: "hello@gobitsnbytes.org",
-                        href: "mailto:hello@gobitsnbytes.org",
+                        value: "hyderabad@gobitsnbytes.org",
+                        href: "mailto:hyderabad@gobitsnbytes.org",
                         color: "text-(--brand-pink)",
                       },
                       {
