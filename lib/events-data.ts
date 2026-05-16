@@ -13,9 +13,9 @@ export type HeroEventSlide = {
 
 export const githubDevDayEvent = {
   title: "GitHub Copilot Dev Days",
-  city: "Hyderabad",
+  city: "Lucknow",
   dateLabel: "Apr 19, 2026",
-  venueLabel: "Cubispace, Hyderabad",
+  venueLabel: "Cubispace, Lucknow",
   formatLabel: "In-Person Workshop",
   statusLabel: "Registrations Closed",
   archiveLink: "https://luma.com/xtxua1jl",
@@ -24,13 +24,13 @@ export const githubDevDayEvent = {
 } as const;
 
 export const hyderabadBuildGuildEvent = {
-  title: "Hyderabad Build Guild",
+  title: "Lucknow Build Guild",
   dateLabel: "Apr 19, 2026",
-  venueLabel: "SureStay by Best Western, Hyderabad",
+  venueLabel: "SureStay by Best Western, Lucknow",
   formatLabel: "Free Hardware Workshop & Meetup",
   statusLabel: "Archived",
   hostName: "Shaurya",
-  eventSite: "https://www.hyderabad-build-guild.xyz/",
+  eventSite: "https://www.lucknow-build-guild.xyz/",
   hostLinktree: "https://linktr.ee/shauryaashu",
   hostGithub: "https://github.com/Shaurya-Ashu",
 } as const;
@@ -39,21 +39,21 @@ export const heroEvents: HeroEventSlide[] = [
   {
     image: "/event_pictures/bd1.jpg",
     imageMobile: "/event_pictures/bd1.jpg",
-    alt: "Hyderabad Build Guild",
+    alt: "Lucknow Build Guild",
     badge: "Archived Event",
     status: "archived",
-    title: "Hyderabad Build Guild",
-    subtitle: "19 Apr 2026 · Hyderabad",
+    title: "Lucknow Build Guild",
+    subtitle: "19 Apr 2026 · Lucknow",
     href: "/events",
   },
   {
     image: "/images/github-copilot-hero-desktop.png",
     imageMobile: "/images/github-copilot-hero-mobile.png",
-    alt: "GitHub Copilot Dev Days | Hyderabad",
+    alt: "GitHub Copilot Dev Days | Lucknow",
     badge: "Registrations Closed",
     status: "closed",
     title: "GitHub Copilot Dev Days",
-    subtitle: "19 Apr 2026 · Hyderabad",
+    subtitle: "19 Apr 2026 · Lucknow",
     href: "/events",
   },
   {

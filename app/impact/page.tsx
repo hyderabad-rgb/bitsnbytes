@@ -160,7 +160,7 @@ export default function Impact() {
         <PageSection
           align="center"
           eyebrow="Event highlight"
-          title="Scrapyard Hyderabad 2024"
+          title="Scrapyard Lucknow 2024"
           description={
             <span className="mx-auto block max-w-2xl">
               40+ coders, designers, filmmakers, and builders working on civic,

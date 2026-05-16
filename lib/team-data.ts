@@ -17,8 +17,8 @@ export const TEAM_MEMBERS: TeamMember[] = [
       "Created Codiva: A 5-star rated VS Code extension that gamifies coding for thousands of users",
       "National Qualifier for the Indian Mathematics Olympiad (IOQM)",
       "Built Alem (AI notes app <25MB) and MailAF (AI cold outreach automation)",
-      "Educator at STEMist Hyderabad, teaching Computer Science to underprivileged students with talent",
-      "Lead Organizer for Scrapyard Hyderabad and Galactic Local Mentor at NASA Space Apps Challenge"
+      "Educator at STEMist Lucknow, teaching Computer Science to underprivileged students with talent",
+      "Lead Organizer for Scrapyard Lucknow and Galactic Local Mentor at NASA Space Apps Challenge"
     ],
     talkToMeWhen: [
       "You want to discuss community building or scaling high-agency movements",

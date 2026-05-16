@@ -38,7 +38,7 @@ export default function TeamGlobe() {
       arcLength: 0.9,
       rings: 1,
       maxRings: 3,
-      initialPosition: { lat: 26.8467, lng: 80.9462 }, // Hyderabad coordinates
+      initialPosition: { lat: 26.8467, lng: 80.9462 }, // Lucknow coordinates
       autoRotate: true,
       autoRotateSpeed: isMobile ? 0.3 : 0.5,
     }),
@@ -49,7 +49,7 @@ export default function TeamGlobe() {
     () => [
       {
         order: 1,
-        startLat: 26.8467, // Hyderabad
+        startLat: 26.8467, // Lucknow
         startLng: 80.9462,
         endLat: 25.4358, // Prayagraj
         endLng: 81.8463,
@@ -58,7 +58,7 @@ export default function TeamGlobe() {
       },
       {
         order: 2,
-        startLat: 26.8467, // Hyderabad
+        startLat: 26.8467, // Lucknow
         startLng: 80.9462,
         endLat: 12.9716, // Bangalore
         endLng: 77.5946,
@@ -76,7 +76,7 @@ export default function TeamGlobe() {
       },
       {
         order: 4,
-        startLat: 26.8467, // Hyderabad
+        startLat: 26.8467, // Lucknow
         startLng: 80.9462,
         endLat: 28.6139, // Delhi
         endLng: 77.209,
@@ -94,7 +94,7 @@ export default function TeamGlobe() {
       },
       {
         order: 6,
-        startLat: 26.8467, // Hyderabad
+        startLat: 26.8467, // Lucknow
         startLng: 80.9462,
         endLat: 26.2345, // Raebareli
         endLng: 81.2329,
@@ -121,7 +121,7 @@ export default function TeamGlobe() {
       },
       {
         order: 9,
-        startLat: 26.8467, // Hyderabad
+        startLat: 26.8467, // Lucknow
         startLng: 80.9462,
         endLat: 21.1702, // Surat
         endLng: 72.8311,
@@ -130,7 +130,7 @@ export default function TeamGlobe() {
       },
       {
         order: 10,
-        startLat: 26.8467, // Hyderabad
+        startLat: 26.8467, // Lucknow
         startLng: 80.9462,
         endLat: 30.901, // Ludhiana
         endLng: 75.8573,
@@ -139,7 +139,7 @@ export default function TeamGlobe() {
       },
       {
         order: 11,
-        startLat: 26.8467, // Hyderabad
+        startLat: 26.8467, // Lucknow
         startLng: 80.9462,
         endLat: 13.0827, // Chennai (Madras)
         endLng: 80.2707,
@@ -148,7 +148,7 @@ export default function TeamGlobe() {
       },
       {
         order: 12,
-        startLat: 26.8467, // Hyderabad
+        startLat: 26.8467, // Lucknow
         startLng: 80.9462,
         endLat: 19.076, // Mumbai
         endLng: 72.8777,

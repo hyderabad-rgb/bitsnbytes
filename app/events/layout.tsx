@@ -65,7 +65,7 @@ const eventsJsonLd = {
       position: 2,
       item: {
         "@type": "Event",
-        name: "Scrapyard Hyderabad 2025",
+        name: "Scrapyard Lucknow 2025",
         description: "Our debut hackathon united 40+ coders, designers, filmmakers, and builders.",
         startDate: "2025-12-01",
         eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
