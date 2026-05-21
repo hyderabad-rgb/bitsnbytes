@@ -41,9 +41,9 @@ const Testimonial = dynamic(
 // GlassIcons removed in favor of Features bento grid
 
 const stats = [
-  { value: "1500+", label: "Active members", detail: "across India" },
-  { value: "130+", label: "Projects shipped", detail: "from apps to AI" },
-  { value: "100+", label: "Partner schools", detail: "and growing" },
+  { value: "1500+", label: "Active members", detail: "in Hyderabad" },
+  { value: "130+", label: "Projects shipped", detail: "by local teens" },
+  { value: "50+", label: "Partner schools", detail: "across the city" },
 ];
 
 // Focus Areas are now handled within the Features component
@@ -57,9 +57,9 @@ export default function Home() {
         <HeroHyderabad />
 
         <PageSection
-          eyebrow="Impact"
-          title="Shipped, not just taught"
-          description="A teen-led code club. Workshops and hackathons that end with something shipped, not just something learned."
+          eyebrow="Local Impact"
+          title="Building Cyberabad's Future"
+          description="A teen-led code club right here in Hyderabad. Hackathons and dev squads that end with something shipped."
         >
           <div className="grid gap-6 md:grid-cols-3">
             {stats.map((stat) => (
@@ -101,7 +101,7 @@ export default function Home() {
 
         <PageSection
           eyebrow="Stories"
-          title="Voices from the crew"
+          title="Voices from the Hyderabad crew"
           align="center"
         >
           <Suspense fallback={<LoadingInline />}>

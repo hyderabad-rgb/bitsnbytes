@@ -32,7 +32,7 @@ export function Features() {
                 </span>
               </div>
               <h2 className="mt-8 text-center text-2xl font-black text-white uppercase tracking-widest">
-                Across India
+                In Cyberabad
               </h2>
             </div>
           </GlassContainer>
@@ -47,9 +47,9 @@ export function Features() {
               <Lightbulb className="m-auto h-14 w-14 text-(--brand-pink)" />
             </div>
             <div className="relative z-10 mt-10 space-y-3 text-center">
-              <h2 className="text-2xl font-black text-white px-2">Workshops</h2>
+              <h2 className="text-2xl font-black text-white px-2">Hack Nights</h2>
               <p className="text-base text-white/60 font-medium">
-                Dev tools and AI, one weekend at a time.
+                Dev tools, AI, and Biryani. Every weekend.
               </p>
             </div>
           </GlassContainer>
@@ -128,10 +128,10 @@ export function Features() {
             </div>
             <div className="relative z-10 mt-10 space-y-3 text-center">
               <h2 className="text-2xl font-black text-white px-2">
-                130+ Projects
+                130+ Shipped
               </h2>
               <p className="text-base text-white/60 font-medium">
-                From apps to AI. Shipped to production.
+                From Charminar to Cyber Towers. Built locally.
               </p>
             </div>
           </GlassContainer>
@@ -149,11 +149,10 @@ export function Features() {
                 </div>
                 <div className="space-y-4">
                   <h2 className="text-3xl font-black text-white tracking-tight">
-                    Innovation
+                    Cyberabad Tech
                   </h2>
                   <p className="text-base text-white/60 font-medium leading-relaxed">
-                    AI, distributed systems, creative code. The stuff we
-                    actually work on.
+                    AI, distributed systems, creative code. Built right here in Hyderabad.
                   </p>
                 </div>
               </div>

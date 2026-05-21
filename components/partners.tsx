@@ -71,9 +71,9 @@ const strategicPartners = [
 export function Partners() {
   return (
     <PageSection
-      eyebrow="Ecosystem"
+      eyebrow="Cyberabad Ecosystem"
       title="Our partners"
-      description="We work with these companies to give teen builders more to work with."
+      description="We work with local and global partners to give Cyberabad's teen builders the best tools."
       align="center"
       className="pb-24 relative overflow-hidden"
     >
