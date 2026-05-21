@@ -97,17 +97,17 @@ export default function About() {
               {[
                 {
                   name: "Yash Singh",
-                  role: "CO-FOUNDER & ORGANISATION LEAD",
+                  role: "CHIEF EXECUTIVE OFFICER (CEO)",
                   img: "https://github.com/yashclouded.png",
                 },
                 {
                   name: "Aadrika Maurya",
-                  role: "CO-FOUNDER & CHIEF CREATIVE STRATEGIST",
+                  role: "CHIEF CREATIVE OFFICER (CCO)",
                   img: "https://github.com/Aadrika08.png",
                 },
                 {
                   name: "Akshat Kushwaha",
-                  role: "CO-FOUNDER & TECHNICAL LEAD",
+                  role: "CHIEF TECHNOLOGY OFFICER (CTO) & CHIEF OPERATING OFFICER (COO)",
                   img: "https://github.com/a3ro-dev.png",
                 },
               ].map((founder) => (
