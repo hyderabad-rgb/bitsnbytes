@@ -292,9 +292,13 @@ export function FlickeringFooter() {
   return (
     <footer
       id="footer"
-      className="w-full pb-0 mt-12 sm:mt-16 border-t border-white/20 bg-white/70 backdrop-blur-xl dark:border-white/10 dark:bg-white/5"
+      className="relative w-full pb-0 mt-12 sm:mt-24 bg-[var(--brand-ink)] overflow-hidden"
     >
-      <div className="flex flex-col md:flex-row md:items-start md:justify-between p-6 sm:p-10 max-w-6xl mx-auto">
+      {/* Top Border Glow */}
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[80%] h-[1px] bg-gradient-to-r from-transparent via-[var(--brand-pink)] to-transparent opacity-50"></div>
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[50%] h-[100px] bg-[var(--brand-pink)]/10 blur-[100px] rounded-full pointer-events-none"></div>
+
+      <div className="relative z-10 flex flex-col md:flex-row md:items-start md:justify-between p-8 sm:p-12 lg:p-16 max-w-7xl mx-auto">
         <div className="flex flex-col items-start justify-start gap-y-4 max-w-xs">
           <Link href="/" className="flex items-center gap-3">
             <div className="relative grid h-10 w-10 place-items-center rounded-xl bg-black text-white shadow-[0_8px_30px_rgba(228,90,146,0.4)]">
@@ -317,21 +321,20 @@ export function FlickeringFooter() {
               </p>
             </div>
           </Link>
-          <p className="tracking-tight text-muted-foreground text-sm">
-            Innovate. Collaborate. Hack. Born in Hyderabad, spreading across
-            India. No adults in the room.
+          <p className="tracking-tight text-white/50 text-sm max-w-[280px] leading-relaxed">
+            Forged in the City of Pearls. The premier teen hacker network of Cyberabad. No adults in the room.
           </p>
-          <div className="flex flex-wrap gap-2 mt-2">
+          <div className="flex flex-wrap gap-3 mt-4">
             {socialLinks.map(({ href, label, icon: Icon }) => (
               <Link
                 key={href}
                 href={href}
                 target="_blank"
                 rel="noreferrer"
-                className="inline-flex items-center gap-1.5 rounded-full border border-white/30 bg-white/50 px-3 py-1.5 text-xs backdrop-blur-md transition-colors hover:border-white/50 hover:text-foreground dark:bg-white/10"
+                className="group relative inline-flex items-center justify-center p-2.5 rounded-full border border-white/10 bg-white/5 text-white/60 hover:text-white transition-all hover:scale-110 hover:border-[var(--brand-pink)]/50 hover:bg-[var(--brand-pink)]/10 hover:shadow-[0_0_15px_rgba(228,90,146,0.3)]"
+                aria-label={label}
               >
-                <Icon className="h-3.5 w-3.5" />
-                <span>{label}</span>
+                <Icon className="h-4 w-4" />
               </Link>
             ))}
           </div>
@@ -361,61 +364,61 @@ export function FlickeringFooter() {
                 ))}
               </ul>
             ))}
-            <div className="flex flex-col gap-y-2">
-              <p className="mb-2 text-xs font-semibold uppercase tracking-[0.25em] text-foreground">
+            <div className="flex flex-col gap-y-4">
+              <p className="text-[10px] font-bold uppercase tracking-[0.25em] text-white/40">
                 Connect
               </p>
               <a
                 href="mailto:hyderabad@gobitsnbytes.org"
-                className="text-white/70 hover:text-white transition-colors"
+                className="text-white hover:text-[var(--brand-pink)] transition-colors text-sm font-medium"
               >
                 hyderabad@gobitsnbytes.org
               </a>
-              <p className="flex items-center gap-2 text-sm text-muted-foreground">
-                <MapPin className="h-4 w-4 shrink-0" />
-                Based in Hyderabad, India
+              <p className="flex items-center gap-2 text-sm text-white/50">
+                <MapPin className="h-4 w-4 shrink-0 text-[var(--brand-pink)]" />
+                Cyberabad, India
               </p>
             </div>
           </div>
         </div>
       </div>
-      <div className="w-full h-24 sm:h-32 md:h-48 relative mt-8 z-0">
-        <div className="absolute inset-0 bg-gradient-to-t from-transparent to-background z-10 from-40%" />
+      <div className="w-full h-32 sm:h-48 md:h-56 relative mt-12 z-0">
+        <div className="absolute inset-0 bg-gradient-to-t from-[var(--brand-ink)] via-[var(--brand-ink)]/50 to-transparent z-10" />
         <div className="absolute inset-0 mx-4">
           <FlickeringGrid
-            text={tablet ? "B&B" : "Bits&Bytes"}
-            fontSize={tablet ? 50 : 80}
+            text={tablet ? "HYD" : "CYBERABAD"}
+            fontSize={tablet ? 70 : 130}
             className="absolute inset-0 h-full w-full"
             squareSize={2}
             gridGap={tablet ? 2 : 3}
             color="#E45A92"
-            maxOpacity={0.22}
+            maxOpacity={0.25}
             flickerChance={0.08}
           />
           <FlickeringGrid
-            text={tablet ? "B&B" : "Bits&Bytes"}
-            fontSize={tablet ? 50 : 80}
+            text={tablet ? "HYD" : "CYBERABAD"}
+            fontSize={tablet ? 70 : 130}
             className="absolute inset-0 h-full w-full"
             squareSize={2}
             gridGap={tablet ? 2 : 3}
             color="#5D2F77"
-            maxOpacity={0.32}
+            maxOpacity={0.35}
             flickerChance={0.12}
           />
           <FlickeringGrid
-            text={tablet ? "B&B" : "Bits&Bytes"}
-            fontSize={tablet ? 50 : 80}
+            text={tablet ? "HYD" : "CYBERABAD"}
+            fontSize={tablet ? 70 : 130}
             className="absolute inset-0 h-full w-full"
             squareSize={2}
             gridGap={tablet ? 2 : 3}
             color="#FDA83D"
-            maxOpacity={0.18}
+            maxOpacity={0.2}
             flickerChance={0.06}
           />
         </div>
       </div>
-      <div className="border-t border-white/10 text-center text-[10px] sm:text-xs py-3 sm:py-4 px-4 w-full text-muted-foreground">
-        © {new Date().getFullYear()} Bits&Bytes. Built with club ❤️.
+      <div className="relative z-20 border-t border-white/5 text-center text-[10px] sm:text-xs py-4 sm:py-6 px-4 w-full text-white/40 tracking-wider">
+        © {new Date().getFullYear()} Bits&Bytes Cyberabad. Forged by builders.
       </div>
     </footer>
   );
