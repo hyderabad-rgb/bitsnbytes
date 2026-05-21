@@ -389,7 +389,7 @@ export function FlickeringFooter() {
             className="absolute inset-0 h-full w-full"
             squareSize={2}
             gridGap={tablet ? 2 : 3}
-            color="var(--brand-pink)"
+            color="#E45A92"
             maxOpacity={0.22}
             flickerChance={0.08}
           />
@@ -399,7 +399,7 @@ export function FlickeringFooter() {
             className="absolute inset-0 h-full w-full"
             squareSize={2}
             gridGap={tablet ? 2 : 3}
-            color="var(--brand-coral)"
+            color="#5D2F77"
             maxOpacity={0.32}
             flickerChance={0.12}
           />
@@ -409,7 +409,7 @@ export function FlickeringFooter() {
             className="absolute inset-0 h-full w-full"
             squareSize={2}
             gridGap={tablet ? 2 : 3}
-            color="var(--brand-amber)"
+            color="#FDA83D"
             maxOpacity={0.18}
             flickerChance={0.06}
           />
