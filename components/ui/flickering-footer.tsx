@@ -262,7 +262,7 @@ const socialLinks = [
   },
   { href: "https://github.com/gobitsnbytes-hyderabad", label: "GitHub", icon: Github },
   {
-    href: "https://www.instagram.com/gobitsnbytes",
+    href: "https://www.instagram.com/gobitsnbytes.hyd?igsh=MXE1OHh4MGllazBwbA==",
     label: "Instagram",
     icon: Instagram,
   },

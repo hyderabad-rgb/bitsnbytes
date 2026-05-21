@@ -169,7 +169,7 @@ export default function RootLayout({
       "https://www.linkedin.com/company/gobitsbytes",
       "https://github.com/gobitsnbytes",
       "https://twitter.com/bitsnbytes_hyd",
-      "https://www.instagram.com/gobitsnbytes",
+      "https://www.instagram.com/gobitsnbytes.hyd?igsh=MXE1OHh4MGllazBwbA==",
     ],
     contactPoint: {
       "@type": "ContactPoint",

@@ -352,7 +352,7 @@ export default function Contact() {
                   {
                     icon: Instagram,
                     label: "Instagram",
-                    href: "https://www.instagram.com/bitsnbytes.hyd",
+                    href: "https://www.instagram.com/gobitsnbytes.hyd?igsh=MXE1OHh4MGllazBwbA==",
                   },
                 ].map((social) => (
                   <Link
