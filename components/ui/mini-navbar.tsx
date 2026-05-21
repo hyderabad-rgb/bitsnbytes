@@ -102,8 +102,11 @@ export function MiniNavbar() {
                             className="object-contain invert"
                         />
                     </div>
-                    <span className="hidden sm:block text-xl font-display font-bold text-white tracking-tight">
+                    <span className="hidden sm:flex items-center gap-1.5 text-xl font-display font-bold text-white tracking-tight">
                         Bits&Bytes
+                        <span className="text-[10px] bg-white/10 px-1.5 py-0.5 rounded text-white/80 uppercase tracking-widest font-bold leading-none mt-0.5">
+                            HYD
+                        </span>
                     </span>
                 </Link>
 
