@@ -7,6 +7,7 @@ import Footer from "@/components/footer";
 import Navigation from "@/components/navigation";
 import { PageBackground } from "@/components/page-background";
 import { FloatingAiAssistant } from "@/components/client-only-components";
+import { HyderabadMarquee } from "@/components/ui/hyderabad-marquee";
 
 export function SiteChrome({ children }: { children: ReactNode }) {
   const pathname = usePathname();
@@ -22,6 +23,7 @@ export function SiteChrome({ children }: { children: ReactNode }) {
       <div className="relative z-10 flex min-h-screen flex-col overflow-x-hidden">
         <Navigation />
         <main className="flex-1 w-full overflow-x-hidden">{children}</main>
+        <HyderabadMarquee />
         <Footer />
         <Suspense fallback={null}>
           <FloatingAiAssistant />
