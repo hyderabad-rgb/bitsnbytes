@@ -260,7 +260,7 @@ const socialLinks = [
     label: "LinkedIn",
     icon: Linkedin,
   },
-  { href: "https://github.com/gobitsnbytes", label: "GitHub", icon: Github },
+  { href: "https://github.com/gobitsnbytes-hyderabad", label: "GitHub", icon: Github },
   {
     href: "https://www.instagram.com/gobitsnbytes",
     label: "Instagram",

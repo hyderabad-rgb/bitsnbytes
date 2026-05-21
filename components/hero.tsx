@@ -54,7 +54,7 @@ export default function Hero() {
             <div className="flex items-center gap-6">
               <span className="text-sm text-white/70">Follow us:</span>
               <a
-                href="https://github.com/gobitsnbytes"
+                href="https://github.com/gobitsnbytes-hyderabad"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 hover:bg-white/10 rounded-full transition-colors group"
