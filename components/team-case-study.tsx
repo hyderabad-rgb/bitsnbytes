@@ -252,8 +252,8 @@ export default function TeamCaseStudy({ coreTeam, volunteers }: TeamCaseStudyPro
 
   return (
     <div className="flex flex-col gap-8 sm:gap-16">
-      {/* Core Team - CSS Grid with explicit 2 rows for equal heights */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:grid-rows-2 gap-3 sm:gap-4 md:gap-6 lg:gap-8">
+      {/* Core Team */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 max-w-4xl mx-auto gap-4 md:gap-6 lg:gap-8 w-full">
         {coreTeam.map((member, index) => {
           const accentColor = brandColors[index % brandColors.length];
 
