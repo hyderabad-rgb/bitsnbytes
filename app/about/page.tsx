@@ -18,29 +18,29 @@ const TeamCaseStudy = dynamic(() => import("@/components/team-case-study"), {
 });
 
 const aboutContent = {
-  title: "About Bits&Bytes",
+  title: "Bits&Bytes Hyderabad",
   description:
-    "Innovate. Collaborate. Hack. A teen-led code club. Three co-founders, no adults in the room. Built from scratch.",
+    "Innovate. Collaborate. Hack. The independent, teen-led code club is now in the City of Pearls. No adults in the room. Built from scratch.",
   sections: [
     {
-      title: "The Origin Story",
+      title: "The Genesis",
       description:
-        "We were hosting Daydream Lucknow under Hack Club. Everything was set: venue, sponsors, participants. At the last moment, Hack Club pulled the venue. So we went fully independent and built the entire hackathon in 13 days flat. That's probably the most honest thing we can tell you about us. We don't quit, and we don't make excuses.",
+        "The national Bits&Bytes network was born when an event venue bailed 13 days before launch. The founders built a hackathon from scratch and sold it out. Now, we are bringing that exact independent, high-agency DNA to Hyderabad.",
     },
     {
       title: "High Agency Only",
       description:
-        "Platforms like CodeDay and Hack Club are great for beginners. But they lock organizers into rigid formats that don't deliver. We're building the alternative. Anyone can participate, but they'll be surrounded by people who actually want to ship, not just attend.",
+        "We are building the alternative to rigid beginner platforms. We are uniting the boldest teen builders in Hyderabad who actually want to ship products, not just attend events.",
     },
     {
-      title: "Ship Real Products",
+      title: "Ship Real Code",
       description:
-        "Workshops and hack nights that end with something shipped, not just something learned. Hackathons, dev squads, and launches, all student-run.",
+        "From Charminar's heritage to Cyber Towers' innovation, our hackathons and dev squads in Hyderabad end with real products deployed to the real world.",
     },
     {
       title: "Production Grade",
       description:
-        "If the site goes down, 1500 people notice. We build real infrastructure, not just demos that look good for five minutes.",
+        "We build real infrastructure, not just demos that look good for five minutes. We are preparing the next generation of Hyderabad engineers.",
     },
   ],
 };
@@ -123,14 +123,54 @@ export default function About() {
           eyebrow="Team"
           title="Meet the Agents"
           description="Designers, engineers, club leads, and storytellers. The people behind everything."
-          className="pt-8 md:pt-12 pb-24 md:pb-32"
+          className="pt-8 md:pt-12 pb-16 md:pb-20"
         >
           <Suspense fallback={<LoadingInline />}>
             <TeamCaseStudy coreTeam={coreTeam} volunteers={volunteers} />
           </Suspense>
-          <p className="mt-4 sm:mt-6 text-center text-xs sm:text-sm text-muted-foreground px-4 sm:px-0">
+          <p className="mt-4 sm:mt-6 text-center text-xs sm:text-sm text-muted-foreground px-4 sm:px-0 mb-16">
             *Roles stay flexible as our team and club grow.
           </p>
+
+          {/* Network Founders Section */}
+          <div className="w-full border-t border-white/10 pt-16 mt-8 max-w-6xl mx-auto text-left">
+            <h3 className="text-[0.65rem] sm:text-xs font-bold uppercase tracking-[0.25em] text-white/50 mb-2">
+              NETWORK FOUNDERS
+            </h3>
+            <p className="text-sm text-white/40 mb-10">
+              The founders of Bits&Bytes. Reproduced from the parent org.
+            </p>
+            
+            <div className="flex flex-wrap justify-start items-center gap-x-12 gap-y-8">
+              {[
+                {
+                  name: "Yash Singh",
+                  role: "CO-FOUNDER & ORGANISATION LEAD",
+                  img: "https://github.com/yashclouded.png",
+                },
+                {
+                  name: "Aadrika Maurya",
+                  role: "CO-FOUNDER & CHIEF CREATIVE STRATEGIST",
+                  img: "https://github.com/Aadrika08.png",
+                },
+                {
+                  name: "Akshat Kushwaha",
+                  role: "CO-FOUNDER & TECHNICAL LEAD",
+                  img: "https://github.com/a3ro-dev.png",
+                },
+              ].map((founder) => (
+                <div key={founder.name} className="flex items-center gap-4">
+                  <div className="h-14 w-14 rounded-full overflow-hidden border border-white/20">
+                    <img src={founder.img} alt={founder.name} className="h-full w-full object-cover" />
+                  </div>
+                  <div>
+                    <h4 className="text-base font-bold text-white mb-0.5">{founder.name}</h4>
+                    <p className="text-[0.65rem] font-medium text-white/60 tracking-wider">{founder.role}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
         </PageSection>
       </main>
     </>
