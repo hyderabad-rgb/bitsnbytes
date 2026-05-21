@@ -70,7 +70,9 @@ export function MiniNavbar() {
                      group-hover:opacity-40 group-hover:blur-xl group-hover:-m-3"
             ></div>
             <Link
-                href="/join"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSekVMeRcn5MLEQRxQwdqIfxvaKkP4f9Ux9EJqQOuL-gHqP45w/viewform"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="relative z-10 flex items-center justify-center gap-1.5 px-6 py-2.5 text-sm font-black text-white bg-gradient-to-r from-(--brand-pink) to-[#5D2F77] rounded-full hover:brightness-110 active:scale-95 transition-transform transition-colors transition-opacity duration-200 w-full md:w-auto border border-white/10 shadow-[0_0_15px_rgba(228,90,146,0.3)]"
             >
                 Join Now

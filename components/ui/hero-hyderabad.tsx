@@ -79,7 +79,9 @@ export const HeroHyderabad = () => {
                   className="w-full sm:flex-1 h-12 sm:h-14 px-6 sm:px-8 rounded-full bg-gradient-to-r from-(--brand-pink) to-[#5D2F77] text-sm sm:text-base font-bold text-white shadow-[0_0_30px_rgba(228,90,146,0.6)] hover:shadow-[0_0_50px_rgba(228,90,146,0.8)] transition-transform hover:scale-[1.02] active:scale-[0.98] border-none"
                 >
                   <Link
-                    href="/join"
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSekVMeRcn5MLEQRxQwdqIfxvaKkP4f9Ux9EJqQOuL-gHqP45w/viewform"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="flex items-center justify-center gap-2"
                   >
                     Join the HYD Crew
