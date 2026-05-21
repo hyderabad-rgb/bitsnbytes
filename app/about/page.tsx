@@ -28,7 +28,7 @@ const coreTeam: CoreTeamMember[] = [
     role: "Fork Lead & Social Media",
     image: "/team/shreethan.jpg",
     mobileImagePosition: "center 18%",
-    bio: "CS undergrad at JNTUH architecting intelligent systems across AI/ML, full-stack development, and cybersecurity.",
+    bio: "Full-stack engineer and AI specialist architecting secure, scalable systems and intelligent applications.",
     expertise: [
       "Leadership",
       "Social Media Strategy",
@@ -43,7 +43,7 @@ const coreTeam: CoreTeamMember[] = [
     role: "Tech Lead",
     image: "/team/meghana.jpg",
     mobileImagePosition: "center 20%",
-    bio: "Passionate CS engineer solving complex problems through robust software architecture, data structures, and innovative algorithms.",
+    bio: "Software engineer specializing in robust system architecture, complex algorithmic problem-solving, and scalable product development.",
     expertise: [
       "Tech Leadership",
       "Software Engineering",
