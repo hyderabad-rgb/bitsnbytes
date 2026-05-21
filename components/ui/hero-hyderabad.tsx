@@ -83,18 +83,7 @@ export const HeroHyderabad = () => {
                     <ArrowRight className="h-5 w-5 shrink-0" />
                   </Link>
                 </Button>
-                <Button
-                  asChild
-                  variant="outline"
-                  className="w-full sm:flex-1 h-12 sm:h-14 px-6 sm:px-8 rounded-full border-white/30 bg-white/10 text-sm sm:text-base font-semibold text-white backdrop-blur-md hover:bg-white/20 transition-transform hover:scale-[1.02]"
-                >
-                  <Link
-                    href="/impact"
-                    className="flex items-center justify-center"
-                  >
-                    See our impact
-                  </Link>
-                </Button>
+
               </div>
             </div>
           </GlassContainer>

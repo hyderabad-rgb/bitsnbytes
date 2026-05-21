@@ -273,7 +273,6 @@ const footerLinks = [
     title: "Explore",
     links: [
       { id: 1, title: "About", url: "/about" },
-      { id: 2, title: "Impact", url: "/impact" },
       { id: 3, title: "Join", url: "/join" },
       { id: 4, title: "Contact", url: "/contact" },
     ],
