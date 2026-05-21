@@ -14,7 +14,6 @@ const NAV_LINKS = [
     { href: "/about", label: "About" },
     { href: "/events", label: "Events" },
     { href: "/impact", label: "Impact" },
-    { href: "/qna", label: "QnA" },
 ];
 
 const AnimatedNavLink = ({
