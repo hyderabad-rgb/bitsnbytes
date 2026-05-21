@@ -382,41 +382,7 @@ export function FlickeringFooter() {
           </div>
         </div>
       </div>
-      <div className="w-full h-32 sm:h-48 md:h-56 relative mt-12 z-0">
-        <div className="absolute inset-0 bg-gradient-to-t from-[var(--brand-ink)] via-[var(--brand-ink)]/50 to-transparent z-10" />
-        <div className="absolute inset-0 mx-4">
-          <FlickeringGrid
-            text={tablet ? "HYD" : "HYDERABAD"}
-            fontSize={tablet ? 70 : 130}
-            className="absolute inset-0 h-full w-full"
-            squareSize={2}
-            gridGap={tablet ? 2 : 3}
-            color="#E45A92"
-            maxOpacity={0.25}
-            flickerChance={0.08}
-          />
-          <FlickeringGrid
-            text={tablet ? "HYD" : "HYDERABAD"}
-            fontSize={tablet ? 70 : 130}
-            className="absolute inset-0 h-full w-full"
-            squareSize={2}
-            gridGap={tablet ? 2 : 3}
-            color="#5D2F77"
-            maxOpacity={0.35}
-            flickerChance={0.12}
-          />
-          <FlickeringGrid
-            text={tablet ? "HYD" : "HYDERABAD"}
-            fontSize={tablet ? 70 : 130}
-            className="absolute inset-0 h-full w-full"
-            squareSize={2}
-            gridGap={tablet ? 2 : 3}
-            color="#FDA83D"
-            maxOpacity={0.2}
-            flickerChance={0.06}
-          />
-        </div>
-      </div>
+
       <div className="relative z-20 border-t border-white/5 text-center text-[10px] sm:text-xs py-4 sm:py-6 px-4 w-full text-white/40 tracking-wider">
         © {new Date().getFullYear()} Bits&Bytes Hyderabad. Forged by builders.
       </div>
