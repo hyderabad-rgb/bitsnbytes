@@ -322,7 +322,7 @@ export function FlickeringFooter() {
             </div>
           </Link>
           <p className="tracking-tight text-white/50 text-sm max-w-[280px] leading-relaxed">
-            Forged in the City of Pearls. The premier teen hacker network of Cyberabad. No adults in the room.
+            Forged in the City of Pearls. The premier teen hacker network of Hyderabad. No adults in the room.
           </p>
           <div className="flex flex-wrap gap-3 mt-4">
             {socialLinks.map(({ href, label, icon: Icon }) => (
@@ -376,7 +376,7 @@ export function FlickeringFooter() {
               </a>
               <p className="flex items-center gap-2 text-sm text-white/50">
                 <MapPin className="h-4 w-4 shrink-0 text-[var(--brand-pink)]" />
-                Cyberabad, India
+                Hyderabad, India
               </p>
             </div>
           </div>
@@ -386,7 +386,7 @@ export function FlickeringFooter() {
         <div className="absolute inset-0 bg-gradient-to-t from-[var(--brand-ink)] via-[var(--brand-ink)]/50 to-transparent z-10" />
         <div className="absolute inset-0 mx-4">
           <FlickeringGrid
-            text={tablet ? "HYD" : "CYBERABAD"}
+            text={tablet ? "HYD" : "HYDERABAD"}
             fontSize={tablet ? 70 : 130}
             className="absolute inset-0 h-full w-full"
             squareSize={2}
@@ -396,7 +396,7 @@ export function FlickeringFooter() {
             flickerChance={0.08}
           />
           <FlickeringGrid
-            text={tablet ? "HYD" : "CYBERABAD"}
+            text={tablet ? "HYD" : "HYDERABAD"}
             fontSize={tablet ? 70 : 130}
             className="absolute inset-0 h-full w-full"
             squareSize={2}
@@ -406,7 +406,7 @@ export function FlickeringFooter() {
             flickerChance={0.12}
           />
           <FlickeringGrid
-            text={tablet ? "HYD" : "CYBERABAD"}
+            text={tablet ? "HYD" : "HYDERABAD"}
             fontSize={tablet ? 70 : 130}
             className="absolute inset-0 h-full w-full"
             squareSize={2}
@@ -418,7 +418,7 @@ export function FlickeringFooter() {
         </div>
       </div>
       <div className="relative z-20 border-t border-white/5 text-center text-[10px] sm:text-xs py-4 sm:py-6 px-4 w-full text-white/40 tracking-wider">
-        © {new Date().getFullYear()} Bits&Bytes Cyberabad. Forged by builders.
+        © {new Date().getFullYear()} Bits&Bytes Hyderabad. Forged by builders.
       </div>
     </footer>
   );

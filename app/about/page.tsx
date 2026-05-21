@@ -16,7 +16,7 @@ const TeamCaseStudy = dynamic(() => import("@/components/team-case-study"), {
 const aboutContent = {
   title: "Bits&Bytes Hyderabad",
   description:
-    "The independent, teen-led hacker network of Cyberabad. We unite the boldest builders to ship real products—no adults in the room.",
+    "The independent, teen-led hacker network of Hyderabad. We unite the boldest builders to ship real products—no adults in the room.",
 };
 
 // Core Team - Top tier

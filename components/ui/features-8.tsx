@@ -32,7 +32,7 @@ export function Features() {
                 </span>
               </div>
               <h2 className="mt-8 text-center text-2xl font-black text-white uppercase tracking-widest">
-                In Cyberabad
+                In Hyderabad
               </h2>
             </div>
           </GlassContainer>
@@ -149,7 +149,7 @@ export function Features() {
                 </div>
                 <div className="space-y-4">
                   <h2 className="text-3xl font-black text-white tracking-tight">
-                    Cyberabad Tech
+                    Hyderabad Tech
                   </h2>
                   <p className="text-base text-white/60 font-medium leading-relaxed">
                     AI, distributed systems, creative code. Built right here in Hyderabad.

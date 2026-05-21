@@ -60,7 +60,7 @@ export const HeroHyderabad = () => {
                     <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#FDA83D] opacity-75"></span>
                     <span className="relative inline-flex rounded-full h-3 w-3 sm:h-4 sm:w-4 bg-[#FDA83D]"></span>
                   </span>
-                  BITS&BYTES • THE CYBERABAD CHAPTER
+                  BITS&BYTES • THE HYDERABAD CHAPTER
                 </p>
                 <p className="text-sm text-white/90 sm:text-base md:text-lg lg:text-xl max-w-xl leading-relaxed font-medium mx-auto">
                   We are not just in Hyderabad—we represent it. From Charminar's heritage to Cyber Towers' innovation, we're uniting the boldest teen builders to ship real products.
