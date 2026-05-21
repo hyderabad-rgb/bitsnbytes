@@ -4,6 +4,7 @@ import dynamic from "next/dynamic";
 import { Suspense } from "react";
 import { PageSection } from "@/components/page-section";
 import { LoadingInline } from "@/components/loading-wrapper";
+import { HyderabadBackground } from "@/components/ui/hyderabad-background";
 
 import type { CoreTeamMember, Volunteer } from "@/components/team-case-study";
 
@@ -59,7 +60,8 @@ const volunteers: Volunteer[] = [];
 export default function About() {
   return (
     <>
-      <main className="relative z-10 bg-transparent">
+      <main className="relative z-10 bg-transparent min-h-screen">
+        <HyderabadBackground />
         <PageSection
           align="center"
           eyebrow="About"

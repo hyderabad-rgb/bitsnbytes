@@ -6,6 +6,7 @@ import { GlassContainer } from "@/components/ui/glass-container";
 import { Calendar, ArrowRight } from "lucide-react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import { HyderabadBackground } from "@/components/ui/hyderabad-background";
 
 const WebGLShader = dynamic(
   () =>
@@ -50,7 +51,8 @@ export default function Events() {
         </div>
       </section>
 
-      <main className="bg-transparent flex flex-col pt-12 pb-32">
+      <main className="bg-transparent flex flex-col pt-12 pb-32 relative z-10 min-h-screen">
+        <HyderabadBackground />
         <PageSection
           align="center"
           eyebrow="Upcoming"
